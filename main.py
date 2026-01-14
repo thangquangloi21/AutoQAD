@@ -39,7 +39,7 @@ def echo():
         "received": data
     })
 
-@app.route("/api/refresh", methods=["POST"])
+@app.route("/api/inventory", methods=["POST"])
 def refresh():
     log.info("Update dữ liệu inventory")
     global LAST_REQUEST_TIME

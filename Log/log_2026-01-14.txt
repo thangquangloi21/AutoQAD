@@ -1,0 +1,86 @@
+[2026-01-14 21:20:17] [INFO] Bắt đầu bắt đầu chương trình
+[2026-01-14 21:43:43] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:43:55] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:43:55] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:44:24] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:44:25] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:44:27] [INFO] Exit Flask API trên cổng 5000
+[2026-01-14 21:44:27] [INFO] Exit Flask API trên cổng 5000
+[2026-01-14 21:44:30] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:44:31] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:44:34] [INFO] Update dữ liệu inventory
+[2026-01-14 21:46:54] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:46:59] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:47:35] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:47:41] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:47:58] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:48:00] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:48:25] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:48:32] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:49:15] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:49:17] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:52:02] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:52:04] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:52:07] [INFO] Update dữ liệu inventory
+[2026-01-14 21:52:07] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-14 21:52:07] [INFO] import vào db
+[2026-01-14 21:52:07] [INFO] Đang chạy lệnh bcp:
+[2026-01-14 21:52:07] [INFO] bcp Data_qad.dbo.ld_det in D:\ld_det_export.csv -S pc-tql -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-14 21:52:08] [INFO] LỖI BCP – Chi tiết đầy đủ:
+[2026-01-14 21:53:11] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:53:18] [INFO] Update dữ liệu inventory
+[2026-01-14 21:53:53] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-14 21:53:53] [INFO] Exit Flask API trên cổng 5000
+[2026-01-14 21:53:53] [INFO] Exit Flask API trên cổng 5000
+[2026-01-14 21:53:55] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:53:57] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:53:59] [INFO] Update dữ liệu inventory
+[2026-01-14 21:53:59] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-14 21:53:59] [INFO] import vào db
+[2026-01-14 21:53:59] [INFO] Đang chạy lệnh bcp:
+[2026-01-14 21:53:59] [INFO] bcp Data_qad.dbo.ld_det in D:\ld_det_export.csv -S pc-tql -U sa -P P@ssw0rd2025! -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-14 21:54:00] [INFO] Import THÀNH CÔNG!
+[2026-01-14 21:54:04] [INFO] Exit Flask API trên cổng 5000
+[2026-01-14 21:54:04] [INFO] Exit Flask API trên cổng 5000
+[2026-01-14 21:54:32] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:54:33] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:54:37] [INFO] Update dữ liệu inventory
+[2026-01-14 21:54:37] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-14 21:54:37] [INFO] import vào db
+[2026-01-14 21:54:37] [INFO] Đang chạy lệnh bcp:
+[2026-01-14 21:54:37] [INFO] bcp Data_qad.dbo.ld_det in D:\ld_det_export.csv -S pc-tql -U sa -P P@ssw0rd2025! -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-14 21:54:38] [INFO] Import THÀNH CÔNG!
+[2026-01-14 21:54:56] [INFO] Exit Flask API trên cổng 5000
+[2026-01-14 21:54:56] [INFO] Exit Flask API trên cổng 5000
+[2026-01-14 21:58:04] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:58:05] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:58:08] [INFO] Update dữ liệu inventory
+[2026-01-14 21:58:08] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-14 21:58:08] [INFO] import vào db
+[2026-01-14 21:58:08] [INFO] Đang chạy lệnh bcp:
+[2026-01-14 21:58:08] [INFO] bcp Data_qad.dbo.ld_det in D:\ld_det_export.csv -S pc-tql -U sa -P P@ssw0rd2025! -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-14 21:58:08] [INFO] Import THÀNH CÔNG!
+[2026-01-14 21:58:19] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:58:21] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-14 21:58:23] [INFO] Update dữ liệu inventory
+[2026-01-14 21:58:23] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-14 21:58:23] [INFO] import vào db
+[2026-01-14 21:58:23] [INFO] Đang chạy lệnh bcp:
+[2026-01-14 21:58:23] [INFO] bcp Data_qad.dbo.ld_det in D:\ld_det_export.csv -S pc-tql -U sa -P P@ssw0rd2025! -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-14 21:58:23] [INFO] Import THÀNH CÔNG!
+[2026-01-14 21:58:23] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+5000 rows sent to SQL Server. Total sent: 15000
+5000 rows sent to SQL Server. Total sent: 20000
+
+21235 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 344    Average : (61729.65 rows per sec.)
+
+[2026-01-14 21:58:25] [INFO] Update dữ liệu inventory
+[2026-01-14 21:58:31] [INFO] Update dữ liệu inventory
+[2026-01-14 22:00:29] [INFO] Exit Flask API trên cổng 5000
+[2026-01-14 22:00:30] [INFO] Exit Flask API trên cổng 5000

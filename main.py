@@ -6,7 +6,7 @@ from Log import Logger
 
 app = Flask(__name__)
 LAST_REQUEST_TIME = None
-LIMIT = timedelta(minutes=1)
+LIMIT = timedelta(minutes=30)
 log = Logger()
 WorkThread = WorkThread()
 
@@ -40,11 +40,10 @@ def echo():
     })
 
 @app.route("/api/inventory", methods=["POST"])
-def refresh():
+def item():
     log.info("Update dữ liệu inventory")
     global LAST_REQUEST_TIME
     now = datetime.now()
-
     if LAST_REQUEST_TIME and now - LAST_REQUEST_TIME < LIMIT:
         wait = LIMIT - (now - LAST_REQUEST_TIME)
         return jsonify({
@@ -55,8 +54,43 @@ def refresh():
     LAST_REQUEST_TIME = now
 
     # update dữ liệu ở đây
-    WorkThread.Export_inventory()
+    status = WorkThread.Export_inventory()
     
+    if not status:
+        return jsonify({
+            "error": "Export erorr",
+            "retry_after_seconds": int(wait.total_seconds())
+        }), 429
+    
+    # TODO: refresh data + update SQL
+    return jsonify({
+        "status": "done",
+        "time": now.strftime("%Y-%m-%d %H:%M:%S")
+    })
+    
+@app.route("/api/item", methods=["POST"])
+def ExportItem():
+    log.info("Update dữ liệu item")
+    global LAST_REQUEST_TIME
+    now = datetime.now()
+
+    if LAST_REQUEST_TIME and now - LAST_REQUEST_TIME < LIMIT:
+        wait = LIMIT - (now - LAST_REQUEST_TIME)
+        return jsonify({
+            "error": "Too many requests",
+            "retry_after_seconds": int(wait.total_seconds())
+            }), 429
+
+    LAST_REQUEST_TIME = now
+
+    # update dữ liệu ở đây
+    status = WorkThread.Export_item()
+        
+    if not status:
+        return jsonify({
+            "error": "Export erorr",
+        }), 429
+        
     # TODO: refresh data + update SQL
     return jsonify({
         "status": "done",

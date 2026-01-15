@@ -1,0 +1,483 @@
+[2026-01-15 08:48:22] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 08:48:23] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 08:48:45] [INFO] Update dữ liệu inventory
+[2026-01-15 08:48:45] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 08:48:45] [INFO] import vào db
+[2026-01-15 08:49:13] [INFO] Update dữ liệu inventory
+[2026-01-15 08:49:15] [INFO] Update dữ liệu inventory
+[2026-01-15 08:49:41] [INFO] Update dữ liệu inventory
+[2026-01-15 08:49:46] [INFO] Update dữ liệu inventory
+[2026-01-15 08:49:46] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 08:49:46] [INFO] import vào db
+[2026-01-15 08:50:00] [INFO] Update dữ liệu inventory
+[2026-01-15 08:52:15] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 08:52:16] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 08:52:24] [INFO] Update dữ liệu inventory
+[2026-01-15 08:52:24] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 08:52:30] [INFO] import vào db
+[2026-01-15 08:57:11] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 08:57:12] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 08:57:56] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 08:58:06] [INFO] Update dữ liệu inventory
+[2026-01-15 08:58:06] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 08:58:12] [INFO] import vào db
+[2026-01-15 08:58:12] [INFO] Đang chạy lệnh bcp:
+[2026-01-15 08:58:12] [INFO] bcp Data_qad.dbo.ld_det in Z:\exp\ld_det_export.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-15 08:58:13] [INFO] Import THÀNH CÔNG!
+[2026-01-15 08:58:13] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+5000 rows sent to SQL Server. Total sent: 15000
+5000 rows sent to SQL Server. Total sent: 20000
+
+21107 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 562    Average : (37556.94 rows per sec.)
+
+[2026-01-15 08:58:59] [INFO] Update dữ liệu inventory
+[2026-01-15 08:59:11] [INFO] Update dữ liệu inventory
+[2026-01-15 08:59:11] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 08:59:17] [INFO] import vào db
+[2026-01-15 08:59:17] [INFO] Đang chạy lệnh bcp:
+[2026-01-15 08:59:17] [INFO] bcp Data_qad.dbo.ld_det in Z:\exp\ld_det_export.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-15 08:59:17] [INFO] Import THÀNH CÔNG!
+[2026-01-15 08:59:17] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+5000 rows sent to SQL Server. Total sent: 15000
+5000 rows sent to SQL Server. Total sent: 20000
+
+21107 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 516    Average : (40905.04 rows per sec.)
+
+[2026-01-15 09:00:03] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:01:38] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:03:16] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:03:18] [INFO] Exit Flask API trên cổng 5000
+[2026-01-15 09:03:18] [INFO] Exit Flask API trên cổng 5000
+[2026-01-15 09:12:59] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:13:00] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:13:12] [INFO] Update dữ liệu inventory
+[2026-01-15 09:13:12] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 09:13:14] [INFO] import vào db
+[2026-01-15 09:13:14] [INFO] Đang chạy lệnh bcp:
+[2026-01-15 09:13:14] [INFO] bcp Data_qad.dbo.ld_det in Z:\exp\ld_det_export.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-15 09:13:15] [INFO] Import THÀNH CÔNG!
+[2026-01-15 09:13:15] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+5000 rows sent to SQL Server. Total sent: 15000
+5000 rows sent to SQL Server. Total sent: 20000
+
+21107 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 500    Average : (42214.00 rows per sec.)
+
+[2026-01-15 09:13:15] [INFO] Tệp Z:\exp\ld_det_export.csv đã được xóa.
+[2026-01-15 09:16:56] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:17:04] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:17:07] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:17:12] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:17:22] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:20:15] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:20:24] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:20:27] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:20:28] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:20:31] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:20:40] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:20:47] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:20:53] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:20:56] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:20:58] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:21:00] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:21:03] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:21:05] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:21:08] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:21:10] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:21:13] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:21:20] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:21:29] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:21:34] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:21:41] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:21:44] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:21:49] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:22:11] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:22:20] [INFO] Update dữ liệu item
+[2026-01-15 09:22:20] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 09:22:22] [INFO] import vào db
+[2026-01-15 09:23:22] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:23:23] [INFO] Update dữ liệu item
+[2026-01-15 09:23:23] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 09:23:26] [INFO] import vào db
+[2026-01-15 09:24:31] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:24:34] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:24:35] [INFO] Exit Flask API trên cổng 5000
+[2026-01-15 09:24:37] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:24:38] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:24:41] [INFO] Update dữ liệu item
+[2026-01-15 09:24:41] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 09:24:44] [INFO] import vào db
+[2026-01-15 09:25:56] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:26:00] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:26:06] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:26:19] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:26:26] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:26:28] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:26:31] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:26:32] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:26:39] [INFO] Update dữ liệu item
+[2026-01-15 09:26:39] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 09:26:41] [INFO] import vào db
+[2026-01-15 09:29:08] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:30:03] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:30:04] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:30:16] [INFO] Update dữ liệu item
+[2026-01-15 09:30:16] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 09:30:18] [INFO] import vào db
+[2026-01-15 09:33:17] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:33:22] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:33:36] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:33:40] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:33:44] [INFO] Update dữ liệu item
+[2026-01-15 09:33:44] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 09:33:45] [INFO] import vào db
+[2026-01-15 09:35:51] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:36:03] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:36:07] [INFO] Update dữ liệu item
+[2026-01-15 09:36:07] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 09:36:07] [INFO] import vào db
+[2026-01-15 09:36:07] [INFO] Đang chạy lệnh bcp:
+[2026-01-15 09:36:07] [INFO] bcp Data_qad.dbo.pt_mstr in Z:\exp\pt_mstr_export.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-15 09:36:08] [INFO] Import THÀNH CÔNG!
+[2026-01-15 09:36:08] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+
+11406 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 235    Average : (48536.17 rows per sec.)
+
+[2026-01-15 09:37:25] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:37:27] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:37:32] [INFO] Update dữ liệu item
+[2026-01-15 09:37:32] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 09:37:32] [INFO] import vào db
+[2026-01-15 09:37:32] [INFO] Đang chạy lệnh bcp:
+[2026-01-15 09:37:32] [INFO] bcp Data_qad.dbo.pt_mstr in Z:\exp\pt_mstr_export.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-15 09:37:33] [INFO] Import THÀNH CÔNG!
+[2026-01-15 09:37:33] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+
+11406 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 219    Average : (52082.19 rows per sec.)
+
+[2026-01-15 09:37:33] [INFO] Tệp Z:\exp\pt_mstr_export.csv đã được xóa.
+[2026-01-15 09:39:58] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:45:55] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:45:56] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:45:57] [INFO] Update dữ liệu item
+[2026-01-15 09:45:57] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 09:45:58] [INFO] import vào db
+[2026-01-15 09:45:58] [ERROR] Error connecting to database: No module named 'pyodbc'
+[2026-01-15 09:45:58] [ERROR] error: 'NoneType' object has no attribute 'begin'
+[2026-01-15 09:45:58] [INFO] Đang chạy lệnh bcp:
+[2026-01-15 09:45:58] [INFO] bcp Data_qad.dbo.pt_mstr in Z:\exp\pt_mstr_export.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-15 09:45:58] [INFO] Import THÀNH CÔNG!
+[2026-01-15 09:45:58] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+
+11406 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 219    Average : (52082.19 rows per sec.)
+
+[2026-01-15 09:45:58] [INFO] Tệp Z:\exp\pt_mstr_export.csv đã được xóa.
+[2026-01-15 09:46:44] [INFO] Exit Flask API trên cổng 5000
+[2026-01-15 09:46:44] [INFO] Exit Flask API trên cổng 5000
+[2026-01-15 09:47:17] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:47:17] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:47:21] [INFO] Update dữ liệu item
+[2026-01-15 09:47:21] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 09:47:22] [INFO] import vào db
+[2026-01-15 09:47:22] [INFO] connect success
+[2026-01-15 09:47:22] [INFO] Có dữ liệu trong bảng.
+[2026-01-15 09:47:22] [INFO] The table 'pt_mstr' has 34218 rows.
+[2026-01-15 09:47:22] [INFO] DELETE FROM [pt_mstr]
+[2026-01-15 09:47:22] [INFO] Đang chạy lệnh bcp:
+[2026-01-15 09:47:22] [INFO] bcp Data_qad.dbo.pt_mstr in Z:\exp\pt_mstr_export.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-15 09:47:22] [INFO] Import THÀNH CÔNG!
+[2026-01-15 09:47:22] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+
+11406 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 203    Average : (56187.19 rows per sec.)
+
+[2026-01-15 09:47:22] [INFO] Tệp Z:\exp\pt_mstr_export.csv đã được xóa.
+[2026-01-15 09:48:05] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:58:49] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:58:50] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:59:13] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 09:59:21] [INFO] Update dữ liệu item
+[2026-01-15 09:59:21] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 09:59:21] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 09:59:21] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 09:59:21] [INFO] Running Progress export...
+[2026-01-15 09:59:21] [INFO] xuất ok
+[2026-01-15 09:59:21] [INFO] import vào db
+[2026-01-15 09:59:32] [INFO] Exit Flask API trên cổng 5000
+[2026-01-15 09:59:32] [INFO] Exit Flask API trên cổng 5000
+[2026-01-15 10:00:00] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:00:01] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:00:07] [INFO] Update dữ liệu item
+[2026-01-15 10:00:07] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:00:07] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:00:07] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 10:00:08] [INFO] Running Progress export...
+[2026-01-15 10:00:08] [INFO] xuất ok
+[2026-01-15 10:00:08] [INFO] import vào db
+[2026-01-15 10:00:59] [INFO] Exit Flask API trên cổng 5000
+[2026-01-15 10:00:59] [INFO] Exit Flask API trên cổng 5000
+[2026-01-15 10:02:13] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:02:14] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:02:30] [INFO] Update dữ liệu inventory
+[2026-01-15 10:02:30] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:02:31] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:02:31] [INFO] Creating script for ld_det_export.csv...
+[2026-01-15 10:02:31] [INFO] Running Progress export...
+[2026-01-15 10:02:38] [INFO] xuất ok
+[2026-01-15 10:02:38] [INFO] import vào db
+[2026-01-15 10:02:38] [INFO] connect success
+[2026-01-15 10:02:38] [INFO] Có dữ liệu trong bảng.
+[2026-01-15 10:02:38] [INFO] The table 'ld_det' has 42214 rows.
+[2026-01-15 10:02:38] [INFO] DELETE FROM [ld_det]
+[2026-01-15 10:02:39] [INFO] Đang chạy lệnh bcp:
+[2026-01-15 10:02:39] [INFO] bcp Data_qad.dbo.ld_det in Z:\exp\ld_det_export.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-15 10:02:40] [INFO] Import THÀNH CÔNG!
+[2026-01-15 10:02:40] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+5000 rows sent to SQL Server. Total sent: 15000
+5000 rows sent to SQL Server. Total sent: 20000
+
+21104 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 547    Average : (38581.35 rows per sec.)
+
+[2026-01-15 10:02:40] [INFO] Tệp Z:\exp\ld_det_export.csv đã được xóa.
+[2026-01-15 10:03:29] [INFO] Update dữ liệu item
+[2026-01-15 10:03:40] [INFO] Update dữ liệu item
+[2026-01-15 10:03:40] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:03:40] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:03:40] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 10:03:40] [INFO] Running Progress export...
+[2026-01-15 10:03:40] [INFO] xuất ok
+[2026-01-15 10:03:40] [INFO] import vào db
+[2026-01-15 10:04:10] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:04:28] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:04:29] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:04:31] [INFO] Update dữ liệu item
+[2026-01-15 10:04:31] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:04:31] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:04:31] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 10:04:31] [INFO] Running Progress export...
+[2026-01-15 10:04:31] [INFO] xuất ok
+[2026-01-15 10:04:31] [INFO] import vào db
+[2026-01-15 10:05:05] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:05:08] [INFO] Update dữ liệu item
+[2026-01-15 10:05:08] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:05:08] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:05:08] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 10:05:08] [INFO] Running Progress export...
+[2026-01-15 10:05:08] [INFO] xuất ok
+[2026-01-15 10:05:08] [INFO] import vào db
+[2026-01-15 10:05:37] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:05:40] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:05:57] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:05:57] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:05:59] [INFO] Update dữ liệu item
+[2026-01-15 10:05:59] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:05:59] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:05:59] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 10:05:59] [INFO] Running Progress export...
+[2026-01-15 10:05:59] [INFO] xuất ok
+[2026-01-15 10:05:59] [INFO] import vào db
+[2026-01-15 10:06:21] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:06:39] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:06:56] [INFO] Update dữ liệu item
+[2026-01-15 10:07:08] [INFO] Update dữ liệu item
+[2026-01-15 10:07:08] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:07:08] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:07:08] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 10:07:08] [INFO] Running Progress export...
+[2026-01-15 10:07:08] [INFO] xuất ok
+[2026-01-15 10:07:08] [INFO] import vào db
+[2026-01-15 10:07:14] [INFO] Update dữ liệu item
+[2026-01-15 10:08:35] [INFO] Update dữ liệu item
+[2026-01-15 10:08:35] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:08:35] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:08:35] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 10:08:35] [INFO] Running Progress export...
+[2026-01-15 10:08:35] [INFO] xuất ok
+[2026-01-15 10:08:35] [INFO] import vào db
+[2026-01-15 10:11:10] [INFO] Update dữ liệu item
+[2026-01-15 10:11:10] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:11:10] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:11:10] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 10:11:10] [INFO] Running Progress export...
+[2026-01-15 10:11:10] [INFO] xuất ok
+[2026-01-15 10:11:10] [INFO] import vào db
+[2026-01-15 10:11:20] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:11:23] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:11:31] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:11:31] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:11:37] [INFO] Update dữ liệu item
+[2026-01-15 10:11:37] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:11:37] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:11:37] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 10:11:37] [INFO] Running Progress export...
+[2026-01-15 10:11:37] [INFO] xuất ok
+[2026-01-15 10:11:37] [INFO] import vào db
+[2026-01-15 10:11:39] [INFO] Update dữ liệu item
+[2026-01-15 10:11:41] [INFO] Update dữ liệu item
+[2026-01-15 10:11:42] [INFO] Update dữ liệu item
+[2026-01-15 10:13:39] [INFO] Update dữ liệu item
+[2026-01-15 10:13:39] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:13:39] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:13:39] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 10:13:39] [INFO] Running Progress export...
+[2026-01-15 10:13:39] [INFO] xuất ok
+[2026-01-15 10:13:39] [INFO] import vào db
+[2026-01-15 10:14:08] [INFO] Update dữ liệu item
+[2026-01-15 10:14:22] [INFO] Exit Flask API trên cổng 5000
+[2026-01-15 10:14:22] [INFO] Exit Flask API trên cổng 5000
+[2026-01-15 10:15:09] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:15:10] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:15:12] [INFO] Update dữ liệu item
+[2026-01-15 10:15:12] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:15:12] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:15:12] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 10:15:12] [INFO] Running Progress export...
+[2026-01-15 10:15:12] [INFO] xuất ok
+[2026-01-15 10:15:12] [INFO] import vào db
+[2026-01-15 10:15:44] [INFO] Update dữ liệu inventory
+[2026-01-15 10:16:11] [INFO] Update dữ liệu inventory
+[2026-01-15 10:16:13] [INFO] Update dữ liệu inventory
+[2026-01-15 10:16:13] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:16:14] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:16:14] [INFO] Creating script for ld_det_export.csv...
+[2026-01-15 10:16:14] [INFO] Running Progress export...
+[2026-01-15 10:16:19] [INFO] xuất ok
+[2026-01-15 10:16:19] [INFO] import vào db
+[2026-01-15 10:16:19] [INFO] connect success
+[2026-01-15 10:16:19] [INFO] Có dữ liệu trong bảng.
+[2026-01-15 10:16:19] [INFO] The table 'ld_det' has 21104 rows.
+[2026-01-15 10:16:19] [INFO] DELETE FROM [ld_det]
+[2026-01-15 10:16:20] [INFO] Đang chạy lệnh bcp:
+[2026-01-15 10:16:20] [INFO] bcp Data_qad.dbo.ld_det in Z:\exp\ld_det_export.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-15 10:16:20] [INFO] Import THÀNH CÔNG!
+[2026-01-15 10:16:20] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+5000 rows sent to SQL Server. Total sent: 15000
+5000 rows sent to SQL Server. Total sent: 20000
+
+21103 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 531    Average : (39742.00 rows per sec.)
+
+[2026-01-15 10:17:09] [INFO] Update dữ liệu item
+[2026-01-15 10:17:15] [INFO] Update dữ liệu item
+[2026-01-15 10:17:15] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:17:15] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:17:15] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 10:17:15] [INFO] Running Progress export...
+[2026-01-15 10:17:15] [INFO] xuất ok
+[2026-01-15 10:17:15] [INFO] import vào db
+[2026-01-15 10:17:57] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:17:58] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:17:59] [INFO] Update dữ liệu item
+[2026-01-15 10:17:59] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:17:59] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:17:59] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 10:17:59] [INFO] Running Progress export...
+[2026-01-15 10:17:59] [INFO] xuất ok
+[2026-01-15 10:17:59] [INFO] import vào db
+[2026-01-15 10:17:59] [INFO] Kiểm tra và xóa dữ liệu
+[2026-01-15 10:17:59] [INFO] connect success
+[2026-01-15 10:17:59] [INFO] Có dữ liệu trong bảng.
+[2026-01-15 10:17:59] [INFO] The table 'pt_mstr' has 11406 rows.
+[2026-01-15 10:17:59] [INFO] DELETE FROM [pt_mstr]
+[2026-01-15 10:17:59] [INFO] Đang chạy lệnh bcp:
+[2026-01-15 10:17:59] [INFO] bcp Data_qad.dbo.pt_mstr in Z:\exp\pt_mstr_export.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-15 10:17:59] [INFO] Import THÀNH CÔNG!
+[2026-01-15 10:17:59] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+
+11406 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 203    Average : (56187.19 rows per sec.)
+
+[2026-01-15 10:18:00] [INFO] Tệp Z:\exp\pt_mstr_export.csv đã được xóa.
+[2026-01-15 10:18:25] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:18:29] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:22:37] [INFO] Exit Flask API trên cổng 5000
+[2026-01-15 10:22:38] [INFO] Exit Flask API trên cổng 5000
+[2026-01-15 10:25:02] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:25:03] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:25:06] [INFO] Update dữ liệu item
+[2026-01-15 10:25:06] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-01-15 10:25:06] [INFO] ✓ Connected to tvc-sv15
+[2026-01-15 10:25:06] [INFO] Creating script for pt_mstr_export.csv...
+[2026-01-15 10:25:06] [INFO] Running Progress export...
+[2026-01-15 10:25:06] [INFO] xuất ok
+[2026-01-15 10:25:06] [INFO] import vào db
+[2026-01-15 10:25:06] [INFO] Kiểm tra và xóa dữ liệu
+[2026-01-15 10:25:06] [INFO] connect success
+[2026-01-15 10:25:06] [INFO] Có dữ liệu trong bảng.
+[2026-01-15 10:25:06] [INFO] The table 'pt_mstr' has 11406 rows.
+[2026-01-15 10:25:06] [INFO] DELETE FROM [pt_mstr]
+[2026-01-15 10:25:06] [INFO] Đang chạy lệnh bcp:
+[2026-01-15 10:25:06] [INFO] bcp Data_qad.dbo.pt_mstr in Z:\exp\pt_mstr_export.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e bcp_error_rows.log -m 100
+[2026-01-15 10:25:07] [INFO] Import THÀNH CÔNG!
+[2026-01-15 10:25:07] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+
+11406 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 234    Average : (48743.59 rows per sec.)
+
+[2026-01-15 10:25:07] [INFO] Tệp Z:\exp\pt_mstr_export.csv đã được xóa.
+[2026-01-15 10:25:10] [INFO] Update dữ liệu inventory
+[2026-01-15 10:25:29] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:25:29] [INFO] Khởi động Flask API trên cổng 5000
+[2026-01-15 10:25:46] [INFO] Exit Flask API trên cổng 5000
+[2026-01-15 10:25:46] [INFO] Exit Flask API trên cổng 5000

@@ -5,7 +5,7 @@ __pycache_/
 build/
 dist/
 .idea/
-.Log
+.Log/
 
 
 # bỏ qua file có đuôi exe

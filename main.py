@@ -6,7 +6,10 @@ from Log import Logger
 
 app = Flask(__name__)
 LAST_REQUEST_TIME = None
+LAST_REQUEST_TIME2 = None
 LIMIT = timedelta(minutes=30)
+LIMIT2 = timedelta(minutes=30)
+
 log = Logger()
 WorkThread = WorkThread()
 
@@ -59,7 +62,6 @@ def item():
     if not status:
         return jsonify({
             "error": "Export erorr",
-            "retry_after_seconds": int(wait.total_seconds())
         }), 429
     
     # TODO: refresh data + update SQL
@@ -71,17 +73,17 @@ def item():
 @app.route("/api/item", methods=["POST"])
 def ExportItem():
     log.info("Update dữ liệu item")
-    global LAST_REQUEST_TIME
+    global LAST_REQUEST_TIME2
     now = datetime.now()
 
-    if LAST_REQUEST_TIME and now - LAST_REQUEST_TIME < LIMIT:
-        wait = LIMIT - (now - LAST_REQUEST_TIME)
+    if LAST_REQUEST_TIME2 and now - LAST_REQUEST_TIME2 < LIMIT2:
+        wait = LIMIT2 - (now - LAST_REQUEST_TIME2)
         return jsonify({
             "error": "Too many requests",
             "retry_after_seconds": int(wait.total_seconds())
             }), 429
 
-    LAST_REQUEST_TIME = now
+    LAST_REQUEST_TIME2 = now
 
     # update dữ liệu ở đây
     status = WorkThread.Export_item()
@@ -102,7 +104,7 @@ if __name__ == "__main__":
     log.info("Khởi động Flask API trên cổng 5000")
     app.run(
         host="0.0.0.0",  # cho phép máy khác truy cập
-        port=5000,
+        port=5555,
         debug=True
     )
-    log.info("Exit Flask API trên cổng 5000")
+    log.info("Exit Flask API trên cổng 5555")

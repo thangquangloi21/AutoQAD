@@ -55,6 +55,7 @@ class WorkThread(threading.Thread):
             self.ExportInventory()
             self.log.info(f"import vào db")
             # gọi hàm import vào db
+            self.log.info("Kiểm tra và xóa dữ liệu")
             self.check_table_data(table)
             self.import_csv_to_sql_server(csv_path, self.server, self.database, self.schema, table, self.username, self.password)
             self.delete_file(csv_path)
@@ -90,7 +91,7 @@ class WorkThread(threading.Thread):
             "-F", "2",                # Bắt đầu từ dòng 2 (bỏ header)
             "-b", "5000",             # batch size nhỏ để giảm lock/log, commit thường xuyên
             "-a", "65535",           # packet size lớn nhất (tăng tốc độ truyền)
-            "-e", "bcp_error_rows.log",  # log các dòng lỗi (rất quan trọng!)
+            "-e", "Log/bcp_error_rows.log",  # log các dòng lỗi (rất quan trọng!)
             "-m", "100"               # max errors = 100 (cho phép vài lỗi nhỏ mà vẫn chạy tiếp)
         ]
 

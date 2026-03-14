@@ -5,6 +5,9 @@ import os
 from Log import Logger
 import paramiko
 from sqlalchemy import create_engine, text
+import csv
+from pathlib import Path
+
 
 
 class WorkThread(threading.Thread):
@@ -25,9 +28,51 @@ class WorkThread(threading.Thread):
     def __init__(self):
         threading.Thread.__init__(self)
         # self.log.info("Application initialized")
-        
+    
+    
+    def Export_WO(self):
+         # tạo các dữ liệu cần thiết
+        csv_path = r"Z:\exp\wo_mstr.csv"
+        csv_path1 = r"Z:\exp\wo_mstr1.csv"
+        table = "wo_mstr"
+        try:
+            # xuất dữ liệu ra csv
+            self.log.info("Xuất dữ liệu WO ra file CSV")
+            self.ExportWo()
+            self.log.info(f"import vào db")
+            self.log.info(f"Chuyển đổi trước khi import")
+            self.clean_csv(csv_path, csv_path1)
+            # gọi hàm import vào db
+            self.log.info("Kiểm tra và xóa dữ liệu")
+            self.check_table_data(table)
+            self.import_csv_to_sql_server(csv_path1, self.server, self.database, self.schema, table, self.username, self.password)
+            self.delete_file(csv_path)
+            self.delete_file(csv_path1)
+            return True
+        except Exception as e:
+            return False
+    
+    
+    def clean_csv(self, input_path, output_path, delimiter=';', quotechar='"', newline_out='\n'):
+        input_path = Path(input_path)
+        output_path = Path(output_path)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+
+        # Đọc với quotechar='"' để tự động tháo dấu " bao quanh và giải mã "" thành một "
+        with input_path.open('r', encoding='utf-8', newline='') as f_in, \
+            output_path.open('w', encoding='utf-8', newline='') as f_out:
+
+            reader = csv.reader(f_in, delimiter=delimiter, quotechar=quotechar)
+            writer = csv.writer(f_out, delimiter=delimiter, quotechar=None, escapechar='\\', quoting=csv.QUOTE_NONE, lineterminator=newline_out)
+            
+            for row in reader:
+                        # row lúc này đã được "bóc" quote và xử lý "" -> "
+                        # Ghi ra dạng phẳng, không quote, không đổi dấu ';'
+                        writer.writerow(row)
+
     
     def Export_item(self):
+        
          # tạo các dữ liệu cần thiết
         csv_path = r"Z:\exp\pt_mstr_export.csv"
         table = "pt_mstr"
@@ -89,7 +134,7 @@ class WorkThread(threading.Thread):
             "-t", ";",                # field terminator = ;
             "-r", "0x0a",             # row terminator = \n (hex cho Unix LF, tránh lỗi \r\n)
             "-F", "2",                # Bắt đầu từ dòng 2 (bỏ header)
-            "-b", "5000",             # batch size nhỏ để giảm lock/log, commit thường xuyên
+            "-b", "50000",             # batch size nhỏ để giảm lock/log, commit thường xuyên
             "-a", "65535",           # packet size lớn nhất (tăng tốc độ truyền)
             "-e", "Log/bcp_error_rows.log",  # log các dòng lỗi (rất quan trọng!)
             "-m", "100"               # max errors = 100 (cho phép vài lỗi nhỏ mà vẫn chạy tiếp)
@@ -214,6 +259,48 @@ $DLC/bin/_progres -b -p /tmp/export.p -db {self.db_name}
         finally:
             self.disconnect()
             
+            
+    def ExportWo(self):
+          # today = datetime.now()
+        # yesterday = today - timedelta(days=1)
+        # yesterday = yesterday.strftime("%d/%m/%y")
+        
+        """Export wo_mstr table"""
+        create_script = f'''
+cat > /tmp/export.p << 'EOF'
+OUTPUT TO "/home/mfg/exp/wo_mstr.csv".
+PUT UNFORMATTED 
+"wo_lot;wo_nbr;wo_status;wo_rmks;wo_type;wo_ord_date;wo_rel_date;wo_due_date;wo_close_date;wo_lot_next;wo_so_job;wo_vend;wo_yield_pct;wo_routing;wo_bom_code;wo_site;wo__chr01;wo_part;wo_qty_ord;wo_qty_comp;wo_qty_rjct;wo__chr02" SKIP.
+FOR EACH wo_mstr NO-LOCK:
+EXPORT DELIMITER ";"
+wo_lot
+wo_nbr
+wo_status
+wo_rmks
+wo_type
+wo_ord_date
+wo_rel_date
+wo_due_date
+wo_close_date
+wo_lot_next
+wo_so_job
+wo_vend
+wo_yield_pct
+wo_routing
+wo_bom_code
+wo_site
+wo__chr01
+wo_part
+wo_qty_ord
+wo_qty_comp
+wo_qty_rjct
+wo__chr02.
+END.
+OUTPUT CLOSE.
+EOF
+        '''
+        self.exportdata(create_script, "wo_mstr.csv") 
+    
     def exec_command(self, cmd):
         """Execute SSH command and return output"""
         stdin, stdout, stderr = self.ssh.exec_command(cmd)
@@ -235,7 +322,48 @@ $DLC/bin/_progres -b -p /tmp/export.p -db {self.db_name}
         except Exception as e:
             self.log.info(f"✗ SSH Connection Error: {e}")
             raise
-        
+    
+    def Insert_SQL(self, SQL):
+        try:
+            conect = self.conn()
+            # Kiểm tra nếu Eror
+            with conect.begin() as connection:
+                result = connection.execute(text(f"{SQL}"))
+                if SQL.strip().upper().startswith('SELECT'):
+                    row = result.fetchone()
+                    
+                    if row:
+                        self.log.info(f"Dữ liệu gần nhất: ID={row[0]}, SYSTEM={row[1]}, TIME={row[2]}")
+                        print(f"Dữ liệu: {row}")
+                        # return row
+                    else:
+                        self.log.info("Không có dữ liệu.")
+                        print("Không có dữ liệu.")
+                else:
+                    self.log.info("SQL executed successfully")
+        except Exception as e:
+            self.log.error(f"error: {e}")
+            
+    
+    
+    def Check_Status(self, SYSTEM):
+        try:
+            conect = self.conn()
+            # Kiểm tra nếu Eror
+            with conect.begin() as connection:
+                result = connection.execute(text(f"SELECT TOP (1) [ID] ,[SYSTEM] ,[TIME] FROM [ACWO].[dbo].[DataStatus]  where system = '{SYSTEM}' order by id desc"))
+                row = result.fetchone()
+                
+                if row:
+                    self.log.info(f"Dữ liệu gần nhất: ID={row[0]}, SYSTEM={row[1]}, TIME={row[2]}")
+                    print(f"Dữ liệu: {row[2]}")
+                    return row[2]
+                else:
+                    self.log.info("Không có dữ liệu.")
+                    print("Không có dữ liệu.")
+        except Exception as e:
+            self.log.error(f"error: {e}")
+    
     def check_table_data(self, table):
         try:
             conect = self.conn()

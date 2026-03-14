@@ -1,0 +1,1761 @@
+[2026-03-14 08:37:14] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 08:37:15] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 08:37:22] [INFO] Update dữ liệu wo
+[2026-03-14 08:37:22] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 08:37:23] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 08:37:23] [INFO] Creating script for pt_mstr_export.csv...
+[2026-03-14 08:37:23] [INFO] Running Progress export...
+[2026-03-14 08:37:23] [INFO] xuất ok
+[2026-03-14 08:37:23] [INFO] import vào db
+[2026-03-14 08:37:23] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 08:37:23] [INFO] connect success
+[2026-03-14 08:37:23] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 08:37:23] [INFO] The table 'wo_mstr' has 2865301 rows.
+[2026-03-14 08:37:23] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 08:37:31] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 08:37:31] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 08:38:07] [INFO] Import THÀNH CÔNG!
+[2026-03-14 08:38:07] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+5000 rows sent to SQL Server. Total sent: 15000
+5000 rows sent to SQL Server. Total sent: 20000
+5000 rows sent to SQL Server. Total sent: 25000
+5000 rows sent to SQL Server. Total sent: 30000
+5000 rows sent to SQL Server. Total sent: 35000
+5000 rows sent to SQL Server. Total sent: 40000
+5000 rows sent to SQL Server. Total sent: 45000
+5000 rows sent to SQL Server. Total sent: 50000
+5000 rows sent to SQL Server. Total sent: 55000
+5000 rows sent to SQL Server. Total sent: 60000
+5000 rows sent to SQL Server. Total sent: 65000
+5000 rows sent to SQL Server. Total sent: 70000
+5000 rows sent to SQL Server. Total sent: 75000
+5000 rows sent to SQL Server. Total sent: 80000
+5000 rows sent to SQL Server. Total sent: 85000
+5000 rows sent to SQL Server. Total sent: 90000
+5000 rows sent to SQL Server. Total sent: 95000
+5000 rows sent to SQL Server. Total sent: 100000
+5000 rows sent to SQL Server. Total sent: 105000
+5000 rows sent to SQL Server. Total sent: 110000
+5000 rows sent to SQL Server. Total sent: 115000
+5000 rows sent to SQL Server. Total sent: 120000
+5000 rows sent to SQL Server. Total sent: 125000
+5000 rows sent to SQL Server. Total sent: 130000
+5000 rows sent to SQL Server. Total sent: 135000
+5000 rows sent to SQL Server. Total sent: 140000
+5000 rows sent to SQL Server. Total sent: 145000
+5000 rows sent to SQL Server. Total sent: 150000
+5000 rows sent to SQL Server. Total sent: 155000
+5000 rows sent to SQL Server. Total sent: 160000
+5000 rows sent to SQL Server. Total sent: 165000
+5000 rows sent to SQL Server. Total sent: 170000
+5000 rows sent to SQL Server. Total sent: 175000
+5000 rows sent to SQL Server. Total sent: 180000
+5000 rows sent to SQL Server. Total sent: 185000
+5000 rows sent to SQL Server. Total sent: 190000
+5000 rows sent to SQL Server. Total sent: 195000
+5000 rows sent to SQL Server. Total sent: 200000
+5000 rows sent to SQL Server. Total sent: 205000
+5000 rows sent to SQL Server. Total sent: 210000
+5000 rows sent to SQL Server. Total sent: 215000
+5000 rows sent to SQL Server. Total sent: 220000
+5000 rows sent to SQL Server. Total sent: 225000
+5000 rows sent to SQL Server. Total sent: 230000
+5000 rows sent to SQL Server. Total sent: 235000
+5000 rows sent to SQL Server. Total sent: 240000
+5000 rows sent to SQL Server. Total sent: 245000
+5000 rows sent to SQL Server. Total sent: 250000
+5000 rows sent to SQL Server. Total sent: 255000
+5000 rows sent to SQL Server. Total sent: 260000
+5000 rows sent to SQL Server. Total sent: 265000
+5000 rows sent to SQL Server. Total sent: 270000
+5000 rows sent to SQL Server. Total sent: 275000
+5000 rows sent to SQL Server. Total sent: 280000
+5000 rows sent to SQL Server. Total sent: 285000
+5000 rows sent to SQL Server. Total sent: 290000
+5000 rows sent to SQL Server. Total sent: 295000
+5000 rows sent to SQL Server. Total sent: 300000
+5000 rows sent to SQL Server. Total sent: 305000
+5000 rows sent to SQL Server. Total sent: 310000
+5000 rows sent to SQL Server. Total sent: 315000
+5000 rows sent to SQL Server. Total sent: 320000
+5000 rows sent to SQL Server. Total sent: 325000
+5000 rows sent to SQL Server. Total sent: 330000
+5000 rows sent to SQL Server. Total sent: 335000
+5000 rows sent to SQL Server. Total sent: 340000
+5000 rows sent to SQL Server. Total sent: 345000
+5000 rows sent to SQL Server. Total sent: 350000
+5000 rows sent to SQL Server. Total sent: 355000
+5000 rows sent to SQL Server. Total sent: 360000
+5000 rows sent to SQL Server. Total sent: 365000
+5000 rows sent to SQL Server. Total sent: 370000
+5000 rows sent to SQL Server. Total sent: 375000
+5000 rows sent to SQL Server. Total sent: 380000
+5000 rows sent to SQL Server. Total sent: 385000
+5000 rows sent to SQL Server. Total sent: 390000
+5000 rows sent to SQL Server. Total sent: 395000
+5000 rows sent to SQL Server. Total sent: 400000
+5000 rows sent to SQL Server. Total sent: 405000
+5000 rows sent to SQL Server. Total sent: 410000
+5000 rows sent to SQL Server. Total sent: 415000
+5000 rows sent to SQL Server. Total sent: 420000
+5000 rows sent to SQL Server. Total sent: 425000
+5000 rows sent to SQL Server. Total sent: 430000
+5000 rows sent to SQL Server. Total sent: 435000
+5000 rows sent to SQL Server. Total sent: 440000
+5000 rows sent to SQL Server. Total sent: 445000
+5000 rows sent to SQL Server. Total sent: 450000
+5000 rows sent to SQL Server. Total sent: 455000
+5000 rows sent to SQL Server. Total sent: 460000
+5000 rows sent to SQL Server. Total sent: 465000
+5000 rows sent to SQL Server. Total sent: 470000
+5000 rows sent to SQL Server. Total sent: 475000
+5000 rows sent to SQL Server. Total sent: 480000
+5000 rows sent to SQL Server. Total sent: 485000
+5000 rows sent to SQL Server. Total sent: 490000
+5000 rows sent to SQL Server. Total sent: 495000
+5000 rows sent to SQL Server. Total sent: 500000
+5000 rows sent to SQL Server. Total sent: 505000
+5000 rows sent to SQL Server. Total sent: 510000
+5000 rows sent to SQL Server. Total sent: 515000
+5000 rows sent to SQL Server. Total sent: 520000
+5000 rows sent to SQL Server. Total sent: 525000
+5000 rows sent to SQL Server. Total sent: 530000
+5000 rows sent to SQL Server. Total sent: 535000
+5000 rows sent to SQL Server. Total sent: 540000
+5000 rows sent to SQL Server. Total sent: 545000
+5000 rows sent to SQL Server. Total sent: 550000
+5000 rows sent to SQL Server. Total sent: 555000
+5000 rows sent to SQL Server. Total sent: 560000
+5000 rows sent to SQL Server. Total sent: 565000
+5000 rows sent to SQL Server. Total sent: 570000
+5000 rows sent to SQL Server. Total sent: 575000
+5000 rows sent to SQL Server. Total sent: 580000
+5000 rows sent to SQL Server. Total sent: 585000
+5000 rows sent to SQL Server. Total sent: 590000
+5000 rows sent to SQL Server. Total sent: 595000
+5000 rows sent to SQL Server. Total sent: 600000
+5000 rows sent to SQL Server. Total sent: 605000
+5000 rows sent to SQL Server. Total sent: 610000
+5000 rows sent to SQL Server. Total sent: 615000
+5000 rows sent to SQL Server. Total sent: 620000
+5000 rows sent to SQL Server. Total sent: 625000
+5000 rows sent to SQL Server. Total sent: 630000
+5000 rows sent to SQL Server. Total sent: 635000
+5000 rows sent to SQL Server. Total sent: 640000
+5000 rows sent to SQL Server. Total sent: 645000
+5000 rows sent to SQL Server. Total sent: 650000
+5000 rows sent to SQL Server. Total sent: 655000
+5000 rows sent to SQL Server. Total sent: 660000
+5000 rows sent to SQL Server. Total sent: 665000
+5000 rows sent to SQL Server. Total sent: 670000
+5000 rows sent to SQL Server. Total sent: 675000
+5000 rows sent to SQL Server. Total sent: 680000
+5000 rows sent to SQL Server. Total sent: 685000
+5000 rows sent to SQL Server. Total sent: 690000
+5000 rows sent to SQL Server. Total sent: 695000
+5000 rows sent to SQL Server. Total sent: 700000
+5000 rows sent to SQL Server. Total sent: 705000
+5000 rows sent to SQL Server. Total sent: 710000
+5000 rows sent to SQL Server. Total sent: 715000
+SQLState = S1000, NativeError = 0
+Error = [Microsoft][ODBC Driver 17 for SQL Server]Unexpected EOF encountered in BCP data-file
+
+717335 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 35875  Average : (19995.40 rows per sec.)
+
+[2026-03-14 08:38:07] [INFO] Tệp Z:\exp\wo_mstr.csv đã được xóa.
+[2026-03-14 09:36:56] [INFO] Update dữ liệu wo
+[2026-03-14 09:36:56] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 09:36:57] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 09:36:57] [INFO] Creating script for pt_mstr_export.csv...
+[2026-03-14 09:36:57] [INFO] Running Progress export...
+[2026-03-14 09:36:57] [INFO] xuất ok
+[2026-03-14 09:36:57] [INFO] import vào db
+[2026-03-14 09:36:57] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 09:36:57] [INFO] connect success
+[2026-03-14 09:36:58] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 09:36:58] [INFO] The table 'wo_mstr' has 717335 rows.
+[2026-03-14 09:36:58] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 09:37:01] [INFO] File không tồn tại: Z:\exp\wo_mstr.csv
+[2026-03-14 09:37:58] [INFO] Update dữ liệu wo
+[2026-03-14 09:38:06] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 09:38:06] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 09:39:21] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:39:22] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:39:35] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:39:36] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:39:41] [INFO] Update dữ liệu wo
+[2026-03-14 09:39:41] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 09:39:42] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 09:39:42] [INFO] Creating script for pt_mstr_export.csv...
+[2026-03-14 09:39:42] [INFO] Running Progress export...
+[2026-03-14 09:39:42] [INFO] xuất ok
+[2026-03-14 09:39:42] [INFO] import vào db
+[2026-03-14 09:39:42] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 09:39:42] [INFO] connect success
+[2026-03-14 09:39:42] [INFO] The table 'wo_mstr' is empty.
+[2026-03-14 09:39:42] [INFO] Không có dữ liệu trong bảng
+[2026-03-14 09:39:42] [INFO] File không tồn tại: Z:\exp\wo_mstr.csv
+[2026-03-14 09:40:00] [INFO] Update dữ liệu wo
+[2026-03-14 09:40:05] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:40:24] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:40:26] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:40:28] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:40:30] [INFO] Update dữ liệu wo
+[2026-03-14 09:40:30] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 09:40:30] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 09:40:30] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 09:40:30] [INFO] Running Progress export...
+[2026-03-14 09:40:49] [INFO] xuất ok
+[2026-03-14 09:40:49] [INFO] import vào db
+[2026-03-14 09:40:49] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 09:40:49] [INFO] connect success
+[2026-03-14 09:40:49] [INFO] The table 'wo_mstr' is empty.
+[2026-03-14 09:40:49] [INFO] Không có dữ liệu trong bảng
+[2026-03-14 09:40:49] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 09:40:49] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 09:41:25] [INFO] Import THÀNH CÔNG!
+[2026-03-14 09:41:25] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+5000 rows sent to SQL Server. Total sent: 15000
+5000 rows sent to SQL Server. Total sent: 20000
+5000 rows sent to SQL Server. Total sent: 25000
+5000 rows sent to SQL Server. Total sent: 30000
+5000 rows sent to SQL Server. Total sent: 35000
+5000 rows sent to SQL Server. Total sent: 40000
+5000 rows sent to SQL Server. Total sent: 45000
+5000 rows sent to SQL Server. Total sent: 50000
+5000 rows sent to SQL Server. Total sent: 55000
+5000 rows sent to SQL Server. Total sent: 60000
+5000 rows sent to SQL Server. Total sent: 65000
+5000 rows sent to SQL Server. Total sent: 70000
+5000 rows sent to SQL Server. Total sent: 75000
+5000 rows sent to SQL Server. Total sent: 80000
+5000 rows sent to SQL Server. Total sent: 85000
+5000 rows sent to SQL Server. Total sent: 90000
+5000 rows sent to SQL Server. Total sent: 95000
+5000 rows sent to SQL Server. Total sent: 100000
+5000 rows sent to SQL Server. Total sent: 105000
+5000 rows sent to SQL Server. Total sent: 110000
+5000 rows sent to SQL Server. Total sent: 115000
+5000 rows sent to SQL Server. Total sent: 120000
+5000 rows sent to SQL Server. Total sent: 125000
+5000 rows sent to SQL Server. Total sent: 130000
+5000 rows sent to SQL Server. Total sent: 135000
+5000 rows sent to SQL Server. Total sent: 140000
+5000 rows sent to SQL Server. Total sent: 145000
+5000 rows sent to SQL Server. Total sent: 150000
+5000 rows sent to SQL Server. Total sent: 155000
+5000 rows sent to SQL Server. Total sent: 160000
+5000 rows sent to SQL Server. Total sent: 165000
+5000 rows sent to SQL Server. Total sent: 170000
+5000 rows sent to SQL Server. Total sent: 175000
+5000 rows sent to SQL Server. Total sent: 180000
+5000 rows sent to SQL Server. Total sent: 185000
+5000 rows sent to SQL Server. Total sent: 190000
+5000 rows sent to SQL Server. Total sent: 195000
+5000 rows sent to SQL Server. Total sent: 200000
+5000 rows sent to SQL Server. Total sent: 205000
+5000 rows sent to SQL Server. Total sent: 210000
+5000 rows sent to SQL Server. Total sent: 215000
+5000 rows sent to SQL Server. Total sent: 220000
+5000 rows sent to SQL Server. Total sent: 225000
+5000 rows sent to SQL Server. Total sent: 230000
+5000 rows sent to SQL Server. Total sent: 235000
+5000 rows sent to SQL Server. Total sent: 240000
+5000 rows sent to SQL Server. Total sent: 245000
+5000 rows sent to SQL Server. Total sent: 250000
+5000 rows sent to SQL Server. Total sent: 255000
+5000 rows sent to SQL Server. Total sent: 260000
+5000 rows sent to SQL Server. Total sent: 265000
+5000 rows sent to SQL Server. Total sent: 270000
+5000 rows sent to SQL Server. Total sent: 275000
+5000 rows sent to SQL Server. Total sent: 280000
+5000 rows sent to SQL Server. Total sent: 285000
+5000 rows sent to SQL Server. Total sent: 290000
+5000 rows sent to SQL Server. Total sent: 295000
+5000 rows sent to SQL Server. Total sent: 300000
+5000 rows sent to SQL Server. Total sent: 305000
+5000 rows sent to SQL Server. Total sent: 310000
+5000 rows sent to SQL Server. Total sent: 315000
+5000 rows sent to SQL Server. Total sent: 320000
+5000 rows sent to SQL Server. Total sent: 325000
+5000 rows sent to SQL Server. Total sent: 330000
+5000 rows sent to SQL Server. Total sent: 335000
+5000 rows sent to SQL Server. Total sent: 340000
+5000 rows sent to SQL Server. Total sent: 345000
+5000 rows sent to SQL Server. Total sent: 350000
+5000 rows sent to SQL Server. Total sent: 355000
+5000 rows sent to SQL Server. Total sent: 360000
+5000 rows sent to SQL Server. Total sent: 365000
+5000 rows sent to SQL Server. Total sent: 370000
+5000 rows sent to SQL Server. Total sent: 375000
+5000 rows sent to SQL Server. Total sent: 380000
+5000 rows sent to SQL Server. Total sent: 385000
+5000 rows sent to SQL Server. Total sent: 390000
+5000 rows sent to SQL Server. Total sent: 395000
+5000 rows sent to SQL Server. Total sent: 400000
+5000 rows sent to SQL Server. Total sent: 405000
+5000 rows sent to SQL Server. Total sent: 410000
+5000 rows sent to SQL Server. Total sent: 415000
+5000 rows sent to SQL Server. Total sent: 420000
+5000 rows sent to SQL Server. Total sent: 425000
+5000 rows sent to SQL Server. Total sent: 430000
+5000 rows sent to SQL Server. Total sent: 435000
+5000 rows sent to SQL Server. Total sent: 440000
+5000 rows sent to SQL Server. Total sent: 445000
+5000 rows sent to SQL Server. Total sent: 450000
+5000 rows sent to SQL Server. Total sent: 455000
+5000 rows sent to SQL Server. Total sent: 460000
+5000 rows sent to SQL Server. Total sent: 465000
+5000 rows sent to SQL Server. Total sent: 470000
+5000 rows sent to SQL Server. Total sent: 475000
+5000 rows sent to SQL Server. Total sent: 480000
+5000 rows sent to SQL Server. Total sent: 485000
+5000 rows sent to SQL Server. Total sent: 490000
+5000 rows sent to SQL Server. Total sent: 495000
+5000 rows sent to SQL Server. Total sent: 500000
+5000 rows sent to SQL Server. Total sent: 505000
+5000 rows sent to SQL Server. Total sent: 510000
+5000 rows sent to SQL Server. Total sent: 515000
+5000 rows sent to SQL Server. Total sent: 520000
+5000 rows sent to SQL Server. Total sent: 525000
+5000 rows sent to SQL Server. Total sent: 530000
+5000 rows sent to SQL Server. Total sent: 535000
+5000 rows sent to SQL Server. Total sent: 540000
+5000 rows sent to SQL Server. Total sent: 545000
+5000 rows sent to SQL Server. Total sent: 550000
+5000 rows sent to SQL Server. Total sent: 555000
+5000 rows sent to SQL Server. Total sent: 560000
+5000 rows sent to SQL Server. Total sent: 565000
+5000 rows sent to SQL Server. Total sent: 570000
+5000 rows sent to SQL Server. Total sent: 575000
+5000 rows sent to SQL Server. Total sent: 580000
+5000 rows sent to SQL Server. Total sent: 585000
+5000 rows sent to SQL Server. Total sent: 590000
+5000 rows sent to SQL Server. Total sent: 595000
+5000 rows sent to SQL Server. Total sent: 600000
+5000 rows sent to SQL Server. Total sent: 605000
+5000 rows sent to SQL Server. Total sent: 610000
+5000 rows sent to SQL Server. Total sent: 615000
+5000 rows sent to SQL Server. Total sent: 620000
+5000 rows sent to SQL Server. Total sent: 625000
+5000 rows sent to SQL Server. Total sent: 630000
+5000 rows sent to SQL Server. Total sent: 635000
+5000 rows sent to SQL Server. Total sent: 640000
+5000 rows sent to SQL Server. Total sent: 645000
+5000 rows sent to SQL Server. Total sent: 650000
+5000 rows sent to SQL Server. Total sent: 655000
+5000 rows sent to SQL Server. Total sent: 660000
+5000 rows sent to SQL Server. Total sent: 665000
+5000 rows sent to SQL Server. Total sent: 670000
+5000 rows sent to SQL Server. Total sent: 675000
+5000 rows sent to SQL Server. Total sent: 680000
+5000 rows sent to SQL Server. Total sent: 685000
+5000 rows sent to SQL Server. Total sent: 690000
+5000 rows sent to SQL Server. Total sent: 695000
+5000 rows sent to SQL Server. Total sent: 700000
+5000 rows sent to SQL Server. Total sent: 705000
+5000 rows sent to SQL Server. Total sent: 710000
+5000 rows sent to SQL Server. Total sent: 715000
+SQLState = S1000, NativeError = 0
+Error = [Microsoft][ODBC Driver 17 for SQL Server]Unexpected EOF encountered in BCP data-file
+
+717342 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 35750  Average : (20065.51 rows per sec.)
+
+[2026-03-14 09:41:25] [INFO] Tệp Z:\exp\wo_mstr.csv đã được xóa.
+[2026-03-14 09:44:23] [INFO] Update dữ liệu wo
+[2026-03-14 09:44:23] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 09:44:23] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 09:44:23] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 09:44:23] [INFO] Running Progress export...
+[2026-03-14 09:44:36] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:44:42] [INFO] Update dữ liệu wo
+[2026-03-14 09:44:42] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 09:44:42] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 09:44:42] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 09:44:42] [INFO] Running Progress export...
+[2026-03-14 09:45:01] [INFO] xuất ok
+[2026-03-14 09:45:01] [INFO] import vào db
+[2026-03-14 09:45:01] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 09:45:01] [INFO] connect success
+[2026-03-14 09:45:01] [INFO] The table 'wo_mstr' is empty.
+[2026-03-14 09:45:01] [INFO] Không có dữ liệu trong bảng
+[2026-03-14 09:45:01] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 09:45:01] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 09:45:37] [INFO] Import THÀNH CÔNG!
+[2026-03-14 09:45:37] [INFO] Output từ bcp:
+
+Starting copy...
+5000 rows sent to SQL Server. Total sent: 5000
+5000 rows sent to SQL Server. Total sent: 10000
+5000 rows sent to SQL Server. Total sent: 15000
+5000 rows sent to SQL Server. Total sent: 20000
+5000 rows sent to SQL Server. Total sent: 25000
+5000 rows sent to SQL Server. Total sent: 30000
+5000 rows sent to SQL Server. Total sent: 35000
+5000 rows sent to SQL Server. Total sent: 40000
+5000 rows sent to SQL Server. Total sent: 45000
+5000 rows sent to SQL Server. Total sent: 50000
+5000 rows sent to SQL Server. Total sent: 55000
+5000 rows sent to SQL Server. Total sent: 60000
+5000 rows sent to SQL Server. Total sent: 65000
+5000 rows sent to SQL Server. Total sent: 70000
+5000 rows sent to SQL Server. Total sent: 75000
+5000 rows sent to SQL Server. Total sent: 80000
+5000 rows sent to SQL Server. Total sent: 85000
+5000 rows sent to SQL Server. Total sent: 90000
+5000 rows sent to SQL Server. Total sent: 95000
+5000 rows sent to SQL Server. Total sent: 100000
+5000 rows sent to SQL Server. Total sent: 105000
+5000 rows sent to SQL Server. Total sent: 110000
+5000 rows sent to SQL Server. Total sent: 115000
+5000 rows sent to SQL Server. Total sent: 120000
+5000 rows sent to SQL Server. Total sent: 125000
+5000 rows sent to SQL Server. Total sent: 130000
+5000 rows sent to SQL Server. Total sent: 135000
+5000 rows sent to SQL Server. Total sent: 140000
+5000 rows sent to SQL Server. Total sent: 145000
+5000 rows sent to SQL Server. Total sent: 150000
+5000 rows sent to SQL Server. Total sent: 155000
+5000 rows sent to SQL Server. Total sent: 160000
+5000 rows sent to SQL Server. Total sent: 165000
+5000 rows sent to SQL Server. Total sent: 170000
+5000 rows sent to SQL Server. Total sent: 175000
+5000 rows sent to SQL Server. Total sent: 180000
+5000 rows sent to SQL Server. Total sent: 185000
+5000 rows sent to SQL Server. Total sent: 190000
+5000 rows sent to SQL Server. Total sent: 195000
+5000 rows sent to SQL Server. Total sent: 200000
+5000 rows sent to SQL Server. Total sent: 205000
+5000 rows sent to SQL Server. Total sent: 210000
+5000 rows sent to SQL Server. Total sent: 215000
+5000 rows sent to SQL Server. Total sent: 220000
+5000 rows sent to SQL Server. Total sent: 225000
+5000 rows sent to SQL Server. Total sent: 230000
+5000 rows sent to SQL Server. Total sent: 235000
+5000 rows sent to SQL Server. Total sent: 240000
+5000 rows sent to SQL Server. Total sent: 245000
+5000 rows sent to SQL Server. Total sent: 250000
+5000 rows sent to SQL Server. Total sent: 255000
+5000 rows sent to SQL Server. Total sent: 260000
+5000 rows sent to SQL Server. Total sent: 265000
+5000 rows sent to SQL Server. Total sent: 270000
+5000 rows sent to SQL Server. Total sent: 275000
+5000 rows sent to SQL Server. Total sent: 280000
+5000 rows sent to SQL Server. Total sent: 285000
+5000 rows sent to SQL Server. Total sent: 290000
+5000 rows sent to SQL Server. Total sent: 295000
+5000 rows sent to SQL Server. Total sent: 300000
+5000 rows sent to SQL Server. Total sent: 305000
+5000 rows sent to SQL Server. Total sent: 310000
+5000 rows sent to SQL Server. Total sent: 315000
+5000 rows sent to SQL Server. Total sent: 320000
+5000 rows sent to SQL Server. Total sent: 325000
+5000 rows sent to SQL Server. Total sent: 330000
+5000 rows sent to SQL Server. Total sent: 335000
+5000 rows sent to SQL Server. Total sent: 340000
+5000 rows sent to SQL Server. Total sent: 345000
+5000 rows sent to SQL Server. Total sent: 350000
+5000 rows sent to SQL Server. Total sent: 355000
+5000 rows sent to SQL Server. Total sent: 360000
+5000 rows sent to SQL Server. Total sent: 365000
+5000 rows sent to SQL Server. Total sent: 370000
+5000 rows sent to SQL Server. Total sent: 375000
+5000 rows sent to SQL Server. Total sent: 380000
+5000 rows sent to SQL Server. Total sent: 385000
+5000 rows sent to SQL Server. Total sent: 390000
+5000 rows sent to SQL Server. Total sent: 395000
+5000 rows sent to SQL Server. Total sent: 400000
+5000 rows sent to SQL Server. Total sent: 405000
+5000 rows sent to SQL Server. Total sent: 410000
+5000 rows sent to SQL Server. Total sent: 415000
+5000 rows sent to SQL Server. Total sent: 420000
+5000 rows sent to SQL Server. Total sent: 425000
+5000 rows sent to SQL Server. Total sent: 430000
+5000 rows sent to SQL Server. Total sent: 435000
+5000 rows sent to SQL Server. Total sent: 440000
+5000 rows sent to SQL Server. Total sent: 445000
+5000 rows sent to SQL Server. Total sent: 450000
+5000 rows sent to SQL Server. Total sent: 455000
+5000 rows sent to SQL Server. Total sent: 460000
+5000 rows sent to SQL Server. Total sent: 465000
+5000 rows sent to SQL Server. Total sent: 470000
+5000 rows sent to SQL Server. Total sent: 475000
+5000 rows sent to SQL Server. Total sent: 480000
+5000 rows sent to SQL Server. Total sent: 485000
+5000 rows sent to SQL Server. Total sent: 490000
+5000 rows sent to SQL Server. Total sent: 495000
+5000 rows sent to SQL Server. Total sent: 500000
+5000 rows sent to SQL Server. Total sent: 505000
+5000 rows sent to SQL Server. Total sent: 510000
+5000 rows sent to SQL Server. Total sent: 515000
+5000 rows sent to SQL Server. Total sent: 520000
+5000 rows sent to SQL Server. Total sent: 525000
+5000 rows sent to SQL Server. Total sent: 530000
+5000 rows sent to SQL Server. Total sent: 535000
+5000 rows sent to SQL Server. Total sent: 540000
+5000 rows sent to SQL Server. Total sent: 545000
+5000 rows sent to SQL Server. Total sent: 550000
+5000 rows sent to SQL Server. Total sent: 555000
+5000 rows sent to SQL Server. Total sent: 560000
+5000 rows sent to SQL Server. Total sent: 565000
+5000 rows sent to SQL Server. Total sent: 570000
+5000 rows sent to SQL Server. Total sent: 575000
+5000 rows sent to SQL Server. Total sent: 580000
+5000 rows sent to SQL Server. Total sent: 585000
+5000 rows sent to SQL Server. Total sent: 590000
+5000 rows sent to SQL Server. Total sent: 595000
+5000 rows sent to SQL Server. Total sent: 600000
+5000 rows sent to SQL Server. Total sent: 605000
+5000 rows sent to SQL Server. Total sent: 610000
+5000 rows sent to SQL Server. Total sent: 615000
+5000 rows sent to SQL Server. Total sent: 620000
+5000 rows sent to SQL Server. Total sent: 625000
+5000 rows sent to SQL Server. Total sent: 630000
+5000 rows sent to SQL Server. Total sent: 635000
+5000 rows sent to SQL Server. Total sent: 640000
+5000 rows sent to SQL Server. Total sent: 645000
+5000 rows sent to SQL Server. Total sent: 650000
+5000 rows sent to SQL Server. Total sent: 655000
+5000 rows sent to SQL Server. Total sent: 660000
+5000 rows sent to SQL Server. Total sent: 665000
+5000 rows sent to SQL Server. Total sent: 670000
+5000 rows sent to SQL Server. Total sent: 675000
+5000 rows sent to SQL Server. Total sent: 680000
+5000 rows sent to SQL Server. Total sent: 685000
+5000 rows sent to SQL Server. Total sent: 690000
+5000 rows sent to SQL Server. Total sent: 695000
+5000 rows sent to SQL Server. Total sent: 700000
+5000 rows sent to SQL Server. Total sent: 705000
+5000 rows sent to SQL Server. Total sent: 710000
+5000 rows sent to SQL Server. Total sent: 715000
+SQLState = S1000, NativeError = 0
+Error = [Microsoft][ODBC Driver 17 for SQL Server]Unexpected EOF encountered in BCP data-file
+
+717342 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 35781  Average : (20048.13 rows per sec.)
+
+[2026-03-14 09:45:37] [INFO] Tệp Z:\exp\wo_mstr.csv đã được xóa.
+[2026-03-14 09:48:53] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:49:03] [INFO] Update dữ liệu wo
+[2026-03-14 09:49:03] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 09:49:03] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 09:49:03] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 09:49:03] [INFO] Running Progress export...
+[2026-03-14 09:49:03] [INFO] xuất ok
+[2026-03-14 09:49:03] [INFO] import vào db
+[2026-03-14 09:49:03] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 09:49:03] [INFO] connect success
+[2026-03-14 09:49:03] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 09:49:03] [INFO] The table 'wo_mstr' has 717342 rows.
+[2026-03-14 09:49:03] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 09:49:06] [INFO] File không tồn tại: Z:\exp\wo_mstr.csv
+[2026-03-14 09:49:16] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:49:19] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:49:21] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:49:25] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:49:27] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:49:29] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:49:31] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:49:33] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:49:36] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:49:39] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:49:41] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:49:45] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:49:47] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:49:49] [INFO] Update dữ liệu wo
+[2026-03-14 09:49:49] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 09:49:49] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 09:49:49] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 09:49:49] [INFO] Running Progress export...
+[2026-03-14 09:49:59] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:50:01] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:50:01] [INFO] Update dữ liệu wo
+[2026-03-14 09:50:01] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 09:50:01] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 09:50:01] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 09:50:01] [INFO] Running Progress export...
+[2026-03-14 09:50:12] [INFO] xuất ok
+[2026-03-14 09:50:12] [INFO] import vào db
+[2026-03-14 09:50:12] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 09:50:13] [INFO] connect success
+[2026-03-14 09:50:13] [INFO] The table 'wo_mstr' is empty.
+[2026-03-14 09:50:13] [INFO] Không có dữ liệu trong bảng
+[2026-03-14 09:50:13] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 09:50:13] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 5000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 09:51:02] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:52:22] [INFO] Update dữ liệu wo
+[2026-03-14 09:52:22] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 09:52:22] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 09:52:22] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 09:52:22] [INFO] Running Progress export...
+[2026-03-14 09:52:33] [INFO] xuất ok
+[2026-03-14 09:52:33] [INFO] import vào db
+[2026-03-14 09:52:33] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 09:52:33] [INFO] connect success
+[2026-03-14 09:52:34] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 09:52:34] [INFO] The table 'wo_mstr' has 1434685 rows.
+[2026-03-14 09:52:34] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 09:52:38] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 09:52:38] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 09:53:23] [INFO] Update dữ liệu wo
+[2026-03-14 09:53:23] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 09:53:24] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 09:53:24] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 09:53:24] [INFO] Running Progress export...
+[2026-03-14 09:53:25] [INFO] Import THÀNH CÔNG!
+[2026-03-14 09:53:25] [INFO] Output từ bcp:
+
+Starting copy...
+50000 rows sent to SQL Server. Total sent: 50000
+50000 rows sent to SQL Server. Total sent: 100000
+50000 rows sent to SQL Server. Total sent: 150000
+50000 rows sent to SQL Server. Total sent: 200000
+50000 rows sent to SQL Server. Total sent: 250000
+50000 rows sent to SQL Server. Total sent: 300000
+50000 rows sent to SQL Server. Total sent: 350000
+50000 rows sent to SQL Server. Total sent: 400000
+50000 rows sent to SQL Server. Total sent: 450000
+50000 rows sent to SQL Server. Total sent: 500000
+50000 rows sent to SQL Server. Total sent: 550000
+50000 rows sent to SQL Server. Total sent: 600000
+50000 rows sent to SQL Server. Total sent: 650000
+50000 rows sent to SQL Server. Total sent: 700000
+50000 rows sent to SQL Server. Total sent: 750000
+SQLState = S1000, NativeError = 0
+Error = [Microsoft][ODBC Driver 17 for SQL Server]Unexpected EOF encountered in BCP data-file
+
+783716 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 46750  Average : (16763.98 rows per sec.)
+
+[2026-03-14 09:53:25] [INFO] Tệp Z:\exp\wo_mstr.csv đã được xóa.
+[2026-03-14 09:53:35] [INFO] xuất ok
+[2026-03-14 09:53:35] [INFO] import vào db
+[2026-03-14 09:53:35] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 09:53:35] [INFO] connect success
+[2026-03-14 09:53:35] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 09:53:35] [INFO] The table 'wo_mstr' has 783716 rows.
+[2026-03-14 09:53:35] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 09:53:38] [INFO] File không tồn tại: Z:\exp\wo_mstr.csv
+[2026-03-14 09:54:01] [INFO] Update dữ liệu wo
+[2026-03-14 09:54:01] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 09:54:01] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 09:54:01] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 09:54:01] [INFO] Running Progress export...
+[2026-03-14 09:54:04] [INFO] Update dữ liệu wo
+[2026-03-14 09:54:09] [INFO] Update dữ liệu wo
+[2026-03-14 09:54:13] [INFO] xuất ok
+[2026-03-14 09:54:13] [INFO] import vào db
+[2026-03-14 09:54:13] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 09:54:13] [INFO] connect success
+[2026-03-14 09:54:13] [INFO] The table 'wo_mstr' is empty.
+[2026-03-14 09:54:13] [INFO] Không có dữ liệu trong bảng
+[2026-03-14 09:54:13] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 09:54:13] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 09:55:38] [INFO] Import THÀNH CÔNG!
+[2026-03-14 09:55:38] [INFO] Output từ bcp:
+
+Starting copy...
+50000 rows sent to SQL Server. Total sent: 50000
+50000 rows sent to SQL Server. Total sent: 100000
+50000 rows sent to SQL Server. Total sent: 150000
+50000 rows sent to SQL Server. Total sent: 200000
+50000 rows sent to SQL Server. Total sent: 250000
+50000 rows sent to SQL Server. Total sent: 300000
+50000 rows sent to SQL Server. Total sent: 350000
+50000 rows sent to SQL Server. Total sent: 400000
+50000 rows sent to SQL Server. Total sent: 450000
+50000 rows sent to SQL Server. Total sent: 500000
+50000 rows sent to SQL Server. Total sent: 550000
+50000 rows sent to SQL Server. Total sent: 600000
+50000 rows sent to SQL Server. Total sent: 650000
+50000 rows sent to SQL Server. Total sent: 700000
+50000 rows sent to SQL Server. Total sent: 750000
+50000 rows sent to SQL Server. Total sent: 800000
+50000 rows sent to SQL Server. Total sent: 850000
+50000 rows sent to SQL Server. Total sent: 900000
+50000 rows sent to SQL Server. Total sent: 950000
+50000 rows sent to SQL Server. Total sent: 1000000
+50000 rows sent to SQL Server. Total sent: 1050000
+50000 rows sent to SQL Server. Total sent: 1100000
+50000 rows sent to SQL Server. Total sent: 1150000
+50000 rows sent to SQL Server. Total sent: 1200000
+50000 rows sent to SQL Server. Total sent: 1250000
+50000 rows sent to SQL Server. Total sent: 1300000
+50000 rows sent to SQL Server. Total sent: 1350000
+50000 rows sent to SQL Server. Total sent: 1400000
+
+1434685 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 84703  Average : (16937.83 rows per sec.)
+
+[2026-03-14 09:55:38] [INFO] Tệp Z:\exp\wo_mstr.csv đã được xóa.
+[2026-03-14 09:58:57] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:59:00] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 09:59:00] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 09:59:00] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 10:00:55] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:00:56] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:01:03] [INFO] Update dữ liệu wo
+[2026-03-14 10:01:03] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 10:01:03] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 10:01:03] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 10:01:03] [INFO] Running Progress export...
+[2026-03-14 10:01:11] [INFO] xuất ok
+[2026-03-14 10:01:11] [INFO] import vào db
+[2026-03-14 10:01:11] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 10:01:11] [INFO] connect success
+[2026-03-14 10:01:11] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 10:01:11] [INFO] The table 'wo_mstr' has 1434685 rows.
+[2026-03-14 10:01:11] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 10:01:15] [INFO] File không tồn tại: Z:\exp\wo_mstr.csv
+[2026-03-14 10:02:41] [INFO] Update dữ liệu wo
+[2026-03-14 10:02:41] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 10:02:41] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 10:02:41] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 10:02:41] [INFO] Running Progress export...
+[2026-03-14 10:02:49] [INFO] xuất ok
+[2026-03-14 10:02:49] [INFO] import vào db
+[2026-03-14 10:02:49] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 10:02:49] [INFO] connect success
+[2026-03-14 10:02:49] [INFO] The table 'wo_mstr' is empty.
+[2026-03-14 10:02:49] [INFO] Không có dữ liệu trong bảng
+[2026-03-14 10:02:49] [INFO] File không tồn tại: Z:\exp\wo_mstr.csv
+[2026-03-14 10:03:31] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:03:39] [INFO] Update dữ liệu wo
+[2026-03-14 10:03:39] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 10:03:39] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 10:03:39] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 10:03:39] [INFO] Running Progress export...
+[2026-03-14 10:03:47] [INFO] xuất ok
+[2026-03-14 10:03:47] [INFO] import vào db
+[2026-03-14 10:03:47] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 10:03:47] [INFO] connect success
+[2026-03-14 10:03:47] [INFO] The table 'wo_mstr' is empty.
+[2026-03-14 10:03:47] [INFO] Không có dữ liệu trong bảng
+[2026-03-14 10:03:47] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 10:03:47] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 10:03:47] [INFO] Import THÀNH CÔNG!
+[2026-03-14 10:03:47] [INFO] Output từ bcp:
+
+Starting copy...
+SQLState = S1000, NativeError = 0
+Error = [Microsoft][ODBC Driver 17 for SQL Server]Unexpected EOF encountered in BCP data-file
+
+0 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 63    
+
+[2026-03-14 10:03:47] [INFO] Tệp Z:\exp\wo_mstr.csv đã được xóa.
+[2026-03-14 10:07:05] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 10:07:05] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 10:12:53] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:12:54] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:12:58] [INFO] Update dữ liệu wo
+[2026-03-14 10:12:58] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 10:12:59] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 10:12:59] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 10:12:59] [INFO] Running Progress export...
+[2026-03-14 10:13:10] [INFO] xuất ok
+[2026-03-14 10:13:10] [INFO] import vào db
+[2026-03-14 10:13:10] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 10:13:10] [INFO] connect success
+[2026-03-14 10:13:11] [INFO] The table 'wo_mstr' is empty.
+[2026-03-14 10:13:11] [INFO] Không có dữ liệu trong bảng
+[2026-03-14 10:13:11] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 10:13:11] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 10:14:35] [INFO] Import THÀNH CÔNG!
+[2026-03-14 10:14:35] [INFO] Output từ bcp:
+
+Starting copy...
+50000 rows sent to SQL Server. Total sent: 50000
+50000 rows sent to SQL Server. Total sent: 100000
+50000 rows sent to SQL Server. Total sent: 150000
+50000 rows sent to SQL Server. Total sent: 200000
+50000 rows sent to SQL Server. Total sent: 250000
+50000 rows sent to SQL Server. Total sent: 300000
+50000 rows sent to SQL Server. Total sent: 350000
+50000 rows sent to SQL Server. Total sent: 400000
+50000 rows sent to SQL Server. Total sent: 450000
+50000 rows sent to SQL Server. Total sent: 500000
+50000 rows sent to SQL Server. Total sent: 550000
+50000 rows sent to SQL Server. Total sent: 600000
+50000 rows sent to SQL Server. Total sent: 650000
+50000 rows sent to SQL Server. Total sent: 700000
+50000 rows sent to SQL Server. Total sent: 750000
+50000 rows sent to SQL Server. Total sent: 800000
+50000 rows sent to SQL Server. Total sent: 850000
+50000 rows sent to SQL Server. Total sent: 900000
+50000 rows sent to SQL Server. Total sent: 950000
+50000 rows sent to SQL Server. Total sent: 1000000
+50000 rows sent to SQL Server. Total sent: 1050000
+50000 rows sent to SQL Server. Total sent: 1100000
+50000 rows sent to SQL Server. Total sent: 1150000
+50000 rows sent to SQL Server. Total sent: 1200000
+50000 rows sent to SQL Server. Total sent: 1250000
+50000 rows sent to SQL Server. Total sent: 1300000
+50000 rows sent to SQL Server. Total sent: 1350000
+50000 rows sent to SQL Server. Total sent: 1400000
+
+1434685 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 83860  Average : (17108.10 rows per sec.)
+
+[2026-03-14 10:14:35] [INFO] Tệp Z:\exp\wo_mstr.csv đã được xóa.
+[2026-03-14 10:17:21] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:17:23] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:17:26] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 10:17:26] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 10:18:02] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:18:03] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:18:06] [INFO] Update dữ liệu wo
+[2026-03-14 10:18:06] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 10:18:06] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 10:18:06] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 10:18:06] [INFO] Running Progress export...
+[2026-03-14 10:18:18] [INFO] xuất ok
+[2026-03-14 10:18:18] [INFO] import vào db
+[2026-03-14 10:18:48] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:18:55] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:18:57] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:19:00] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:19:23] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:19:25] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:19:29] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:19:33] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:19:36] [INFO] Update dữ liệu wo
+[2026-03-14 10:19:36] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 10:19:36] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 10:19:36] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 10:19:36] [INFO] Running Progress export...
+[2026-03-14 10:19:47] [INFO] xuất ok
+[2026-03-14 10:19:47] [INFO] import vào db
+[2026-03-14 10:20:02] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:20:07] [INFO] Update dữ liệu wo
+[2026-03-14 10:20:07] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 10:20:07] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 10:20:07] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 10:20:07] [INFO] Running Progress export...
+[2026-03-14 10:20:18] [INFO] xuất ok
+[2026-03-14 10:20:18] [INFO] import vào db
+[2026-03-14 10:20:42] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:20:59] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:21:00] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:21:03] [INFO] Update dữ liệu wo
+[2026-03-14 10:21:03] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 10:21:03] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 10:21:03] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 10:21:03] [INFO] Running Progress export...
+[2026-03-14 10:21:15] [INFO] xuất ok
+[2026-03-14 10:21:15] [INFO] import vào db
+[2026-03-14 10:21:38] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 10:21:38] [INFO] connect success
+[2026-03-14 10:21:38] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 10:21:38] [INFO] The table 'wo_mstr' has 1434685 rows.
+[2026-03-14 10:21:38] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 10:21:42] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 10:21:42] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr1.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 10:22:47] [INFO] Import THÀNH CÔNG!
+[2026-03-14 10:22:47] [INFO] Output từ bcp:
+
+Starting copy...
+50000 rows sent to SQL Server. Total sent: 50000
+50000 rows sent to SQL Server. Total sent: 100000
+50000 rows sent to SQL Server. Total sent: 150000
+50000 rows sent to SQL Server. Total sent: 200000
+50000 rows sent to SQL Server. Total sent: 250000
+50000 rows sent to SQL Server. Total sent: 300000
+50000 rows sent to SQL Server. Total sent: 350000
+50000 rows sent to SQL Server. Total sent: 400000
+50000 rows sent to SQL Server. Total sent: 450000
+50000 rows sent to SQL Server. Total sent: 500000
+50000 rows sent to SQL Server. Total sent: 550000
+50000 rows sent to SQL Server. Total sent: 600000
+50000 rows sent to SQL Server. Total sent: 650000
+50000 rows sent to SQL Server. Total sent: 700000
+50000 rows sent to SQL Server. Total sent: 750000
+50000 rows sent to SQL Server. Total sent: 800000
+50000 rows sent to SQL Server. Total sent: 850000
+50000 rows sent to SQL Server. Total sent: 900000
+50000 rows sent to SQL Server. Total sent: 950000
+50000 rows sent to SQL Server. Total sent: 1000000
+50000 rows sent to SQL Server. Total sent: 1050000
+50000 rows sent to SQL Server. Total sent: 1100000
+50000 rows sent to SQL Server. Total sent: 1150000
+50000 rows sent to SQL Server. Total sent: 1200000
+50000 rows sent to SQL Server. Total sent: 1250000
+50000 rows sent to SQL Server. Total sent: 1300000
+50000 rows sent to SQL Server. Total sent: 1350000
+50000 rows sent to SQL Server. Total sent: 1400000
+
+1434685 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 64454  Average : (22259.05 rows per sec.)
+
+[2026-03-14 10:31:47] [INFO] Update dữ liệu wo
+[2026-03-14 10:31:47] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 10:31:47] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 10:31:47] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 10:31:47] [INFO] Running Progress export...
+[2026-03-14 10:31:57] [INFO] xuất ok
+[2026-03-14 10:31:57] [INFO] import vào db
+[2026-03-14 10:32:23] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 10:32:23] [INFO] connect success
+[2026-03-14 10:32:23] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 10:32:23] [INFO] The table 'wo_mstr' has 1434685 rows.
+[2026-03-14 10:32:23] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 10:32:28] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 10:32:28] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr1.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 10:33:32] [INFO] Import THÀNH CÔNG!
+[2026-03-14 10:33:32] [INFO] Output từ bcp:
+
+Starting copy...
+50000 rows sent to SQL Server. Total sent: 50000
+50000 rows sent to SQL Server. Total sent: 100000
+50000 rows sent to SQL Server. Total sent: 150000
+50000 rows sent to SQL Server. Total sent: 200000
+50000 rows sent to SQL Server. Total sent: 250000
+50000 rows sent to SQL Server. Total sent: 300000
+50000 rows sent to SQL Server. Total sent: 350000
+50000 rows sent to SQL Server. Total sent: 400000
+50000 rows sent to SQL Server. Total sent: 450000
+50000 rows sent to SQL Server. Total sent: 500000
+50000 rows sent to SQL Server. Total sent: 550000
+50000 rows sent to SQL Server. Total sent: 600000
+50000 rows sent to SQL Server. Total sent: 650000
+50000 rows sent to SQL Server. Total sent: 700000
+50000 rows sent to SQL Server. Total sent: 750000
+50000 rows sent to SQL Server. Total sent: 800000
+50000 rows sent to SQL Server. Total sent: 850000
+50000 rows sent to SQL Server. Total sent: 900000
+50000 rows sent to SQL Server. Total sent: 950000
+50000 rows sent to SQL Server. Total sent: 1000000
+50000 rows sent to SQL Server. Total sent: 1050000
+50000 rows sent to SQL Server. Total sent: 1100000
+50000 rows sent to SQL Server. Total sent: 1150000
+50000 rows sent to SQL Server. Total sent: 1200000
+50000 rows sent to SQL Server. Total sent: 1250000
+50000 rows sent to SQL Server. Total sent: 1300000
+50000 rows sent to SQL Server. Total sent: 1350000
+50000 rows sent to SQL Server. Total sent: 1400000
+
+1434745 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 63969  Average : (22428.75 rows per sec.)
+
+[2026-03-14 10:34:03] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:34:06] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:35:04] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:35:15] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:35:18] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 10:35:24] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 11:19:20] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 11:19:21] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 11:19:23] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 11:19:23] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 11:22:19] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 11:22:19] [ERROR] Lỗi khi kiểm tra trạng thái bảng: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 18 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Client unable to establish connection. For solutions related to encryption errors, see https://go.microsoft.com/fwlink/?linkid=2226722 (-2146893019)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-03-14 11:22:26] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 11:22:26] [ERROR] Lỗi khi kiểm tra trạng thái bảng: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 18 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Client unable to establish connection. For solutions related to encryption errors, see https://go.microsoft.com/fwlink/?linkid=2226722 (-2146893019)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-03-14 11:42:05] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 11:42:05] [ERROR] Lỗi khi kiểm tra trạng thái bảng: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 18 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Client unable to establish connection. For solutions related to encryption errors, see https://go.microsoft.com/fwlink/?linkid=2226722 (-2146893019)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-03-14 11:42:18] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 11:42:18] [ERROR] Lỗi khi kiểm tra trạng thái bảng: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 18 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Client unable to establish connection. For solutions related to encryption errors, see https://go.microsoft.com/fwlink/?linkid=2226722 (-2146893019)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-03-14 12:54:51] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 12:54:51] [ERROR] Lỗi khi kiểm tra trạng thái bảng: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 18 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Client unable to establish connection. For solutions related to encryption errors, see https://go.microsoft.com/fwlink/?linkid=2226722 (-2146893019)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-03-14 12:55:02] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 12:55:02] [ERROR] Lỗi khi kiểm tra trạng thái bảng: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 18 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Client unable to establish connection. For solutions related to encryption errors, see https://go.microsoft.com/fwlink/?linkid=2226722 (-2146893019)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-03-14 12:55:11] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 12:55:11] [ERROR] Lỗi khi kiểm tra trạng thái bảng: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 18 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Client unable to establish connection. For solutions related to encryption errors, see https://go.microsoft.com/fwlink/?linkid=2226722 (-2146893019)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-03-14 12:55:19] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 12:55:19] [INFO] Bảng [dbo].[wo_mstr] có 1,434,745 dòng.
+[2026-03-14 12:55:30] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 12:55:30] [INFO] Bảng [dbo].[wo_mstr] có 1,434,745 dòng.
+[2026-03-14 12:56:53] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 12:56:53] [INFO] Bảng [dbo].[wo_mstr] có 1,434,745 dòng.
+[2026-03-14 12:56:53] [INFO] Truy vấn SELECT trả về 5 hàng.
+[2026-03-14 12:57:13] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 12:57:13] [INFO] Bảng [dbo].[wo_mstr] có 1,434,745 dòng.
+[2026-03-14 12:57:13] [INFO] Truy vấn SELECT trả về 5 hàng.
+[2026-03-14 12:58:19] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 12:58:19] [INFO] Truy vấn SELECT trả về 1 hàng.
+[2026-03-14 12:59:05] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 12:59:05] [INFO] Truy vấn SELECT trả về 1 hàng.
+[2026-03-14 13:14:09] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 13:14:09] [ERROR] Lỗi khi thực thi SQL: (pyodbc.ProgrammingError) ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'DataStatus'. (208) (SQLExecDirectW)")
+[SQL: insert into DataStatus (SYSTEM, TIME) values ('MES','error')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-14 13:14:10] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 13:14:11] [ERROR] Lỗi khi thực thi SQL: (pyodbc.ProgrammingError) ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'DataStatus'. (208) (SQLExecDirectW)")
+[SQL: insert into DataStatus (SYSTEM, TIME) values ('MES','error')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-14 13:14:14] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 13:14:14] [ERROR] Lỗi khi thực thi SQL: (pyodbc.ProgrammingError) ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'DataStatus'. (208) (SQLExecDirectW)")
+[SQL: insert into DataStatus (SYSTEM, TIME) values ('MES','error')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-14 13:14:46] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 13:14:46] [INFO] Lệnh thực thi ảnh hưởng 1 hàng.
+[2026-03-14 13:14:57] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 13:14:57] [INFO] Lệnh thực thi ảnh hưởng 1 hàng.
+[2026-03-14 13:17:02] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 13:17:03] [ERROR] Lỗi khi thực thi SQL: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '2026'. (102) (SQLExecDirectW)")
+[SQL: insert into ACWO.dbo.DataStatus (SYSTEM, 2026-03-14 13:17:02) values ('MES','error')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-14 13:17:47] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 13:17:47] [ERROR] Lỗi khi thực thi SQL: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '2026'. (102) (SQLExecDirectW)")
+[SQL: insert into ACWO.dbo.DataStatus (SYSTEM, 2026-03-14 13:17:47) values ('MES','error')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-14 13:19:16] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 13:19:16] [ERROR] Lỗi khi thực thi SQL: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '13'. (102) (SQLExecDirectW)")
+[SQL: insert into ACWO.dbo.DataStatus (SYSTEM, TIME) values ('MES', 2026-03-14 13:19:16)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-14 13:19:29] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 13:19:29] [INFO] Lệnh thực thi ảnh hưởng 1 hàng.
+[2026-03-14 13:20:13] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 13:20:13] [INFO] Lệnh thực thi ảnh hưởng 1 hàng.
+[2026-03-14 13:20:36] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 13:20:36] [INFO] Lệnh thực thi ảnh hưởng 1 hàng.
+[2026-03-14 14:08:01] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 14:08:01] [INFO] Lệnh thực thi ảnh hưởng 1 hàng.
+[2026-03-14 14:08:08] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 14:08:08] [INFO] Lệnh thực thi ảnh hưởng 1 hàng.
+[2026-03-14 14:08:44] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 14:08:44] [INFO] Lệnh thực thi ảnh hưởng 1 hàng.
+[2026-03-14 14:12:39] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 14:12:39] [INFO] Truy vấn SELECT trả về 1 hàng.
+[2026-03-14 14:13:18] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 14:13:18] [INFO] Truy vấn SELECT trả về 1 hàng.
+[2026-03-14 14:13:34] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 14:13:34] [INFO] Truy vấn SELECT trả về 1 hàng.
+[2026-03-14 14:13:47] [INFO] Kết nối engine tạo thành công.
+[2026-03-14 14:13:47] [INFO] Truy vấn SELECT trả về 1 hàng.
+[2026-03-14 14:20:14] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:20:15] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:20:20] [ERROR] Lỗi khi thực thi SQL: 'WorkThread' object has no attribute 'engine'
+[2026-03-14 14:21:19] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:21:37] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:22:48] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:22:49] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:22:52] [ERROR] Lỗi khi thực thi SQL: 'WorkThread' object has no attribute 'engine'
+[2026-03-14 14:23:34] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:23:36] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:23:45] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:23:48] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:23:49] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 14:23:49] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 14:25:12] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:25:13] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:25:15] [INFO] connect success
+[2026-03-14 14:25:52] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 14:25:52] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 14:30:20] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:30:21] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:30:24] [INFO] connect success
+[2026-03-14 14:33:07] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:33:13] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:33:46] [INFO] connect success
+[2026-03-14 14:33:46] [INFO] Dữ liệu gần nhất: ID=29, SYSTEM=QAD, TIME=14:08 14-03-2026
+[2026-03-14 14:34:01] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:34:14] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:34:15] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:34:17] [INFO] connect success
+[2026-03-14 14:34:17] [INFO] Dữ liệu gần nhất: ID=29, SYSTEM=QAD, TIME=14:08 14-03-2026
+[2026-03-14 14:34:17] [ERROR] error: 'int' object is not subscriptable
+[2026-03-14 14:34:21] [INFO] connect success
+[2026-03-14 14:34:21] [INFO] Dữ liệu gần nhất: ID=29, SYSTEM=QAD, TIME=14:08 14-03-2026
+[2026-03-14 14:34:21] [ERROR] error: 'int' object is not subscriptable
+[2026-03-14 14:35:11] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:35:12] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:35:14] [INFO] connect success
+[2026-03-14 14:35:14] [INFO] Dữ liệu gần nhất: ID=29, SYSTEM=QAD, TIME=14:08 14-03-2026
+[2026-03-14 14:35:29] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:35:34] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:35:39] [INFO] connect success
+[2026-03-14 14:35:39] [INFO] Dữ liệu gần nhất: ID=29, SYSTEM=QAD, TIME=14:08 14-03-2026
+[2026-03-14 14:35:39] [ERROR] error: 'int' object is not subscriptable
+[2026-03-14 14:35:53] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:36:06] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:36:07] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:36:08] [INFO] connect success
+[2026-03-14 14:36:08] [INFO] Dữ liệu gần nhất: ID=29, SYSTEM=QAD, TIME=14:08 14-03-2026
+[2026-03-14 14:36:08] [ERROR] error: 'int' object is not subscriptable
+[2026-03-14 14:36:10] [INFO] connect success
+[2026-03-14 14:36:10] [INFO] Dữ liệu gần nhất: ID=29, SYSTEM=QAD, TIME=14:08 14-03-2026
+[2026-03-14 14:36:10] [ERROR] error: 'int' object is not subscriptable
+[2026-03-14 14:36:25] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:36:29] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:36:37] [INFO] connect success
+[2026-03-14 14:36:37] [INFO] Dữ liệu gần nhất: ID=29, SYSTEM=QAD, TIME=14:08 14-03-2026
+[2026-03-14 14:36:59] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:37:03] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:37:10] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:37:17] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:37:20] [INFO] connect success
+[2026-03-14 14:37:20] [INFO] Dữ liệu gần nhất: ID=29, SYSTEM=QAD, TIME=14:08 14-03-2026
+[2026-03-14 14:37:42] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:37:46] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:37:52] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:38:09] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:38:10] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:38:13] [INFO] connect success
+[2026-03-14 14:38:13] [INFO] Dữ liệu gần nhất: ID=29, SYSTEM=QAD, TIME=14:08 14-03-2026
+[2026-03-14 14:38:15] [INFO] connect success
+[2026-03-14 14:38:15] [INFO] Dữ liệu gần nhất: ID=29, SYSTEM=QAD, TIME=14:08 14-03-2026
+[2026-03-14 14:38:54] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:46:10] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:46:11] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:46:32] [INFO] connect success
+[2026-03-14 14:46:32] [ERROR] error: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near '14'. (102) (SQLExecDirectW)")
+[SQL: insert into DataStatus (SYSTEM, TIME) values ('QAD', 2026-03-14 14:46:32)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-14 14:47:24] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:47:49] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:47:51] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:47:53] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:48:05] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:48:07] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:48:10] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:48:20] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:48:25] [INFO] connect success
+[2026-03-14 14:48:26] [ERROR] error: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near '14'. (102) (SQLExecDirectW)")
+[SQL: insert into ACWO.dbo.DataStatus (SYSTEM, TIME) values ('QAD', 2026-03-14 14:48:25)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-14 14:49:07] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:49:40] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:49:44] [INFO] connect success
+[2026-03-14 14:49:44] [ERROR] error: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near '14'. (102) (SQLExecDirectW)")
+[SQL: insert into ACWO.dbo.DataStatus (SYSTEM, TIME) values ('QAD', 2026-03-14 14:49:44)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-14 14:50:06] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:50:09] [INFO] connect success
+[2026-03-14 14:50:09] [ERROR] error: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near '14'. (102) (SQLExecDirectW)")
+[SQL: insert into ACWO.dbo.DataStatus (SYSTEM, TIME) values ('QAD', 2026-03-14 14:50:09)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-14 14:50:24] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:50:55] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:51:04] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 14:51:04] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 14:51:07] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:51:08] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:51:13] [INFO] connect success
+[2026-03-14 14:51:13] [ERROR] error: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near '14'. (102) (SQLExecDirectW)")
+[SQL: insert into ACWO.dbo.DataStatus (SYSTEM, TIME) values ('QAD', 2026-03-14 14:51:13)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-14 14:51:40] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:51:42] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:51:44] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:51:56] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:52:01] [ERROR] error: 'WorkThread' object has no attribute 'conn'
+[2026-03-14 14:52:15] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:54:21] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:54:22] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:54:42] [INFO] connect success
+[2026-03-14 14:54:42] [INFO] Dữ liệu gần nhất: ID=29, SYSTEM=QAD, TIME=14:08 14-03-2026
+[2026-03-14 14:54:45] [INFO] connect success
+[2026-03-14 14:54:45] [INFO] Dữ liệu gần nhất: ID=29, SYSTEM=QAD, TIME=14:08 14-03-2026
+[2026-03-14 14:55:16] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:55:18] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:55:19] [INFO] connect success
+[2026-03-14 14:55:19] [INFO] Dữ liệu gần nhất: ID=30, SYSTEM=SAP, TIME=14:08 14-03-2026
+[2026-03-14 14:55:29] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:55:31] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:55:31] [INFO] connect success
+[2026-03-14 14:55:31] [INFO] Dữ liệu gần nhất: ID=30, SYSTEM=SAP, TIME=14:08 14-03-2026
+[2026-03-14 14:55:32] [INFO] connect success
+[2026-03-14 14:55:32] [INFO] Dữ liệu gần nhất: ID=30, SYSTEM=SAP, TIME=14:08 14-03-2026
+[2026-03-14 14:56:10] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:56:15] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:56:20] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:56:27] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:56:32] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:56:36] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:56:41] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:57:27] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:57:28] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:57:44] [INFO] connect success
+[2026-03-14 14:57:44] [ERROR] error: (pyodbc.ProgrammingError) ('42S02', "[42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'DataStatus'. (208) (SQLExecDirectW)")
+[SQL: insert into DataStatus (SYSTEM, TIME) values ('MES','123')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-14 14:59:12] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:59:15] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:59:18] [INFO] connect success
+[2026-03-14 14:59:18] [ERROR] error: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ']'. (102) (SQLExecDirectW)")
+[SQL: insert into ACWO].dbo.DataStatus (SYSTEM, TIME) values ('MES','123')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-14 14:59:33] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 14:59:35] [INFO] connect success
+[2026-03-14 14:59:35] [ERROR] error: This result object does not return rows. It has been closed automatically.
+[2026-03-14 15:00:32] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:00:35] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:00:42] [INFO] connect success
+[2026-03-14 15:00:42] [INFO] SQL executed successfully
+[2026-03-14 15:01:28] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:01:33] [INFO] connect success
+[2026-03-14 15:01:33] [INFO] SQL executed successfully
+[2026-03-14 15:03:01] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:03:02] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:03:06] [INFO] connect success
+[2026-03-14 15:03:06] [INFO] SQL executed successfully
+[2026-03-14 15:03:13] [INFO] connect success
+[2026-03-14 15:03:13] [INFO] SQL executed successfully
+[2026-03-14 15:03:58] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:04:05] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:04:11] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:04:14] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:04:18] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:04:22] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:04:24] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:04:38] [INFO] Update dữ liệu wo
+[2026-03-14 15:04:38] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 15:04:39] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 15:04:39] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 15:04:39] [INFO] Running Progress export...
+[2026-03-14 15:04:49] [INFO] xuất ok
+[2026-03-14 15:04:49] [INFO] import vào db
+[2026-03-14 15:04:49] [INFO] Chuyển đổi trước khi import
+[2026-03-14 15:05:15] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:05:18] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:05:26] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:05:30] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:05:35] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:05:37] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:05:56] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:06:08] [INFO] Update dữ liệu wo
+[2026-03-14 15:06:08] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 15:06:08] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 15:06:08] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 15:06:08] [INFO] Running Progress export...
+[2026-03-14 15:06:19] [INFO] xuất ok
+[2026-03-14 15:06:19] [INFO] import vào db
+[2026-03-14 15:06:19] [INFO] Chuyển đổi trước khi import
+[2026-03-14 15:06:43] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 15:06:43] [INFO] connect success
+[2026-03-14 15:06:43] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 15:06:43] [INFO] The table 'wo_mstr' has 1434745 rows.
+[2026-03-14 15:06:43] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 15:06:47] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 15:06:47] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr1.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 15:07:51] [INFO] Import THÀNH CÔNG!
+[2026-03-14 15:07:51] [INFO] Output từ bcp:
+
+Starting copy...
+50000 rows sent to SQL Server. Total sent: 50000
+50000 rows sent to SQL Server. Total sent: 100000
+50000 rows sent to SQL Server. Total sent: 150000
+50000 rows sent to SQL Server. Total sent: 200000
+50000 rows sent to SQL Server. Total sent: 250000
+50000 rows sent to SQL Server. Total sent: 300000
+50000 rows sent to SQL Server. Total sent: 350000
+50000 rows sent to SQL Server. Total sent: 400000
+50000 rows sent to SQL Server. Total sent: 450000
+50000 rows sent to SQL Server. Total sent: 500000
+50000 rows sent to SQL Server. Total sent: 550000
+50000 rows sent to SQL Server. Total sent: 600000
+50000 rows sent to SQL Server. Total sent: 650000
+50000 rows sent to SQL Server. Total sent: 700000
+50000 rows sent to SQL Server. Total sent: 750000
+50000 rows sent to SQL Server. Total sent: 800000
+50000 rows sent to SQL Server. Total sent: 850000
+50000 rows sent to SQL Server. Total sent: 900000
+50000 rows sent to SQL Server. Total sent: 950000
+50000 rows sent to SQL Server. Total sent: 1000000
+50000 rows sent to SQL Server. Total sent: 1050000
+50000 rows sent to SQL Server. Total sent: 1100000
+50000 rows sent to SQL Server. Total sent: 1150000
+50000 rows sent to SQL Server. Total sent: 1200000
+50000 rows sent to SQL Server. Total sent: 1250000
+50000 rows sent to SQL Server. Total sent: 1300000
+50000 rows sent to SQL Server. Total sent: 1350000
+50000 rows sent to SQL Server. Total sent: 1400000
+
+1434965 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 63234  Average : (22692.93 rows per sec.)
+
+[2026-03-14 15:07:51] [INFO] Tệp Z:\exp\wo_mstr.csv đã được xóa.
+[2026-03-14 15:07:51] [INFO] Tệp Z:\exp\wo_mstr1.csv đã được xóa.
+[2026-03-14 15:07:51] [INFO] connect success
+[2026-03-14 15:07:51] [INFO] SQL executed successfully
+[2026-03-14 15:09:44] [INFO] Update dữ liệu item
+[2026-03-14 15:09:44] [INFO] Xuất dữ liệu inventory ra file CSV
+[2026-03-14 15:09:44] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 15:09:44] [INFO] Creating script for pt_mstr_export.csv...
+[2026-03-14 15:09:44] [INFO] Running Progress export...
+[2026-03-14 15:09:44] [INFO] xuất ok
+[2026-03-14 15:09:44] [INFO] import vào db
+[2026-03-14 15:09:44] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 15:09:44] [INFO] connect success
+[2026-03-14 15:09:44] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 15:09:44] [INFO] The table 'pt_mstr' has 11410 rows.
+[2026-03-14 15:09:44] [INFO] DELETE FROM [pt_mstr]
+[2026-03-14 15:09:44] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 15:09:44] [INFO] bcp Data_qad.dbo.pt_mstr in Z:\exp\pt_mstr_export.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 15:09:45] [INFO] Import THÀNH CÔNG!
+[2026-03-14 15:09:45] [INFO] Output từ bcp:
+
+Starting copy...
+
+11410 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 172    Average : (66337.21 rows per sec.)
+
+[2026-03-14 15:09:45] [INFO] Tệp Z:\exp\pt_mstr_export.csv đã được xóa.
+[2026-03-14 15:10:40] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:12:22] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:12:33] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:12:38] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:12:40] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:12:43] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:12:51] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:23:46] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:23:47] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:24:08] [INFO] Update dữ liệu wo
+[2026-03-14 15:25:10] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:25:16] [INFO] Update dữ liệu wo
+[2026-03-14 15:25:51] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:25:52] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:25:56] [INFO] Update dữ liệu wo
+[2026-03-14 15:26:23] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:26:29] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:26:36] [INFO] Update dữ liệu wo
+[2026-03-14 15:26:36] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 15:26:36] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 15:26:36] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 15:26:36] [INFO] Running Progress export...
+[2026-03-14 15:26:46] [INFO] xuất ok
+[2026-03-14 15:26:46] [INFO] import vào db
+[2026-03-14 15:26:46] [INFO] Chuyển đổi trước khi import
+[2026-03-14 15:27:10] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 15:27:10] [INFO] connect success
+[2026-03-14 15:27:10] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 15:27:10] [INFO] The table 'wo_mstr' has 1434965 rows.
+[2026-03-14 15:27:10] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 15:27:14] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 15:27:14] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr1.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 15:28:17] [INFO] Import THÀNH CÔNG!
+[2026-03-14 15:28:17] [INFO] Output từ bcp:
+
+Starting copy...
+50000 rows sent to SQL Server. Total sent: 50000
+50000 rows sent to SQL Server. Total sent: 100000
+50000 rows sent to SQL Server. Total sent: 150000
+50000 rows sent to SQL Server. Total sent: 200000
+50000 rows sent to SQL Server. Total sent: 250000
+50000 rows sent to SQL Server. Total sent: 300000
+50000 rows sent to SQL Server. Total sent: 350000
+50000 rows sent to SQL Server. Total sent: 400000
+50000 rows sent to SQL Server. Total sent: 450000
+50000 rows sent to SQL Server. Total sent: 500000
+50000 rows sent to SQL Server. Total sent: 550000
+50000 rows sent to SQL Server. Total sent: 600000
+50000 rows sent to SQL Server. Total sent: 650000
+50000 rows sent to SQL Server. Total sent: 700000
+50000 rows sent to SQL Server. Total sent: 750000
+50000 rows sent to SQL Server. Total sent: 800000
+50000 rows sent to SQL Server. Total sent: 850000
+50000 rows sent to SQL Server. Total sent: 900000
+50000 rows sent to SQL Server. Total sent: 950000
+50000 rows sent to SQL Server. Total sent: 1000000
+50000 rows sent to SQL Server. Total sent: 1050000
+50000 rows sent to SQL Server. Total sent: 1100000
+50000 rows sent to SQL Server. Total sent: 1150000
+50000 rows sent to SQL Server. Total sent: 1200000
+50000 rows sent to SQL Server. Total sent: 1250000
+50000 rows sent to SQL Server. Total sent: 1300000
+50000 rows sent to SQL Server. Total sent: 1350000
+50000 rows sent to SQL Server. Total sent: 1400000
+
+1434965 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 63063  Average : (22754.47 rows per sec.)
+
+[2026-03-14 15:28:17] [INFO] Tệp Z:\exp\wo_mstr.csv đã được xóa.
+[2026-03-14 15:28:18] [INFO] Tệp Z:\exp\wo_mstr1.csv đã được xóa.
+[2026-03-14 15:28:18] [INFO] connect success
+[2026-03-14 15:28:18] [INFO] SQL executed successfully
+[2026-03-14 15:28:30] [INFO] Update dữ liệu wo
+[2026-03-14 15:28:43] [INFO] Update dữ liệu wo
+[2026-03-14 15:28:48] [INFO] Update dữ liệu wo
+[2026-03-14 15:28:50] [INFO] Update dữ liệu wo
+[2026-03-14 15:29:37] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 15:29:38] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 15:30:14] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:30:15] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:30:21] [INFO] Update dữ liệu wo
+[2026-03-14 15:30:21] [INFO] connect success
+[2026-03-14 15:30:21] [INFO] Dữ liệu gần nhất: ID=39, SYSTEM=QAD, TIME=error
+[2026-03-14 15:30:21] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 15:30:21] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 15:30:21] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 15:30:22] [INFO] Running Progress export...
+[2026-03-14 15:30:34] [INFO] xuất ok
+[2026-03-14 15:30:34] [INFO] import vào db
+[2026-03-14 15:30:34] [INFO] Chuyển đổi trước khi import
+[2026-03-14 15:30:56] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 15:30:56] [INFO] connect success
+[2026-03-14 15:30:56] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 15:30:56] [INFO] The table 'wo_mstr' has 1434965 rows.
+[2026-03-14 15:30:56] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 15:31:00] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 15:31:00] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr1.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 15:32:02] [INFO] Import THÀNH CÔNG!
+[2026-03-14 15:32:02] [INFO] Output từ bcp:
+
+Starting copy...
+50000 rows sent to SQL Server. Total sent: 50000
+50000 rows sent to SQL Server. Total sent: 100000
+50000 rows sent to SQL Server. Total sent: 150000
+50000 rows sent to SQL Server. Total sent: 200000
+50000 rows sent to SQL Server. Total sent: 250000
+50000 rows sent to SQL Server. Total sent: 300000
+50000 rows sent to SQL Server. Total sent: 350000
+50000 rows sent to SQL Server. Total sent: 400000
+50000 rows sent to SQL Server. Total sent: 450000
+50000 rows sent to SQL Server. Total sent: 500000
+50000 rows sent to SQL Server. Total sent: 550000
+50000 rows sent to SQL Server. Total sent: 600000
+50000 rows sent to SQL Server. Total sent: 650000
+50000 rows sent to SQL Server. Total sent: 700000
+50000 rows sent to SQL Server. Total sent: 750000
+50000 rows sent to SQL Server. Total sent: 800000
+50000 rows sent to SQL Server. Total sent: 850000
+50000 rows sent to SQL Server. Total sent: 900000
+50000 rows sent to SQL Server. Total sent: 950000
+50000 rows sent to SQL Server. Total sent: 1000000
+50000 rows sent to SQL Server. Total sent: 1050000
+50000 rows sent to SQL Server. Total sent: 1100000
+50000 rows sent to SQL Server. Total sent: 1150000
+50000 rows sent to SQL Server. Total sent: 1200000
+50000 rows sent to SQL Server. Total sent: 1250000
+50000 rows sent to SQL Server. Total sent: 1300000
+50000 rows sent to SQL Server. Total sent: 1350000
+50000 rows sent to SQL Server. Total sent: 1400000
+
+1434965 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 62453  Average : (22976.72 rows per sec.)
+
+[2026-03-14 15:32:02] [INFO] Tệp Z:\exp\wo_mstr.csv đã được xóa.
+[2026-03-14 15:32:02] [INFO] Tệp Z:\exp\wo_mstr1.csv đã được xóa.
+[2026-03-14 15:32:02] [INFO] connect success
+[2026-03-14 15:32:02] [INFO] SQL executed successfully
+[2026-03-14 15:32:18] [INFO] Update dữ liệu wo
+[2026-03-14 15:32:18] [INFO] connect success
+[2026-03-14 15:32:18] [INFO] Dữ liệu gần nhất: ID=40, SYSTEM=QAD, TIME=15:32:02 14-03-2026
+[2026-03-14 15:32:20] [INFO] Update dữ liệu wo
+[2026-03-14 15:32:20] [INFO] connect success
+[2026-03-14 15:32:20] [INFO] Dữ liệu gần nhất: ID=40, SYSTEM=QAD, TIME=15:32:02 14-03-2026
+[2026-03-14 15:32:33] [INFO] Update dữ liệu wo
+[2026-03-14 15:32:33] [INFO] connect success
+[2026-03-14 15:32:33] [INFO] Dữ liệu gần nhất: ID=41, SYSTEM=QAD, TIME=error
+[2026-03-14 15:33:56] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:34:05] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:34:25] [INFO] Update dữ liệu wo
+[2026-03-14 15:34:25] [INFO] connect success
+[2026-03-14 15:34:25] [INFO] Dữ liệu gần nhất: ID=41, SYSTEM=QAD, TIME=error
+[2026-03-14 15:34:25] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 15:34:25] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 15:34:25] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 15:34:25] [INFO] Running Progress export...
+[2026-03-14 15:34:39] [INFO] xuất ok
+[2026-03-14 15:34:39] [INFO] import vào db
+[2026-03-14 15:34:39] [INFO] Chuyển đổi trước khi import
+[2026-03-14 15:35:01] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 15:35:01] [INFO] connect success
+[2026-03-14 15:35:01] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 15:35:01] [INFO] The table 'wo_mstr' has 1434965 rows.
+[2026-03-14 15:35:01] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 15:35:05] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 15:35:05] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr1.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 15:36:08] [INFO] Import THÀNH CÔNG!
+[2026-03-14 15:36:08] [INFO] Output từ bcp:
+
+Starting copy...
+50000 rows sent to SQL Server. Total sent: 50000
+50000 rows sent to SQL Server. Total sent: 100000
+50000 rows sent to SQL Server. Total sent: 150000
+50000 rows sent to SQL Server. Total sent: 200000
+50000 rows sent to SQL Server. Total sent: 250000
+50000 rows sent to SQL Server. Total sent: 300000
+50000 rows sent to SQL Server. Total sent: 350000
+50000 rows sent to SQL Server. Total sent: 400000
+50000 rows sent to SQL Server. Total sent: 450000
+50000 rows sent to SQL Server. Total sent: 500000
+50000 rows sent to SQL Server. Total sent: 550000
+50000 rows sent to SQL Server. Total sent: 600000
+50000 rows sent to SQL Server. Total sent: 650000
+50000 rows sent to SQL Server. Total sent: 700000
+50000 rows sent to SQL Server. Total sent: 750000
+50000 rows sent to SQL Server. Total sent: 800000
+50000 rows sent to SQL Server. Total sent: 850000
+50000 rows sent to SQL Server. Total sent: 900000
+50000 rows sent to SQL Server. Total sent: 950000
+50000 rows sent to SQL Server. Total sent: 1000000
+50000 rows sent to SQL Server. Total sent: 1050000
+50000 rows sent to SQL Server. Total sent: 1100000
+50000 rows sent to SQL Server. Total sent: 1150000
+50000 rows sent to SQL Server. Total sent: 1200000
+50000 rows sent to SQL Server. Total sent: 1250000
+50000 rows sent to SQL Server. Total sent: 1300000
+50000 rows sent to SQL Server. Total sent: 1350000
+50000 rows sent to SQL Server. Total sent: 1400000
+
+1434965 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 62282  Average : (23039.80 rows per sec.)
+
+[2026-03-14 15:36:08] [INFO] Tệp Z:\exp\wo_mstr.csv đã được xóa.
+[2026-03-14 15:36:08] [INFO] Tệp Z:\exp\wo_mstr1.csv đã được xóa.
+[2026-03-14 15:36:08] [INFO] connect success
+[2026-03-14 15:36:08] [INFO] SQL executed successfully
+[2026-03-14 15:36:14] [INFO] Update dữ liệu wo
+[2026-03-14 15:36:14] [INFO] connect success
+[2026-03-14 15:36:14] [INFO] Dữ liệu gần nhất: ID=42, SYSTEM=QAD, TIME=15:36:08 14-03-2026
+[2026-03-14 15:36:15] [INFO] Update dữ liệu wo
+[2026-03-14 15:36:15] [INFO] connect success
+[2026-03-14 15:36:15] [INFO] Dữ liệu gần nhất: ID=42, SYSTEM=QAD, TIME=15:36:08 14-03-2026
+[2026-03-14 15:36:16] [INFO] Update dữ liệu wo
+[2026-03-14 15:36:16] [INFO] connect success
+[2026-03-14 15:36:16] [INFO] Dữ liệu gần nhất: ID=42, SYSTEM=QAD, TIME=15:36:08 14-03-2026
+[2026-03-14 15:36:20] [INFO] Update dữ liệu wo
+[2026-03-14 15:36:20] [INFO] connect success
+[2026-03-14 15:36:20] [INFO] Dữ liệu gần nhất: ID=42, SYSTEM=QAD, TIME=15:36:08 14-03-2026
+[2026-03-14 15:36:21] [INFO] Update dữ liệu wo
+[2026-03-14 15:36:21] [INFO] connect success
+[2026-03-14 15:36:21] [INFO] Dữ liệu gần nhất: ID=42, SYSTEM=QAD, TIME=15:36:08 14-03-2026
+[2026-03-14 15:36:48] [INFO] Update dữ liệu wo
+[2026-03-14 15:36:48] [INFO] connect success
+[2026-03-14 15:36:48] [INFO] Dữ liệu gần nhất: ID=43, SYSTEM=QAD, TIME=error
+[2026-03-14 15:36:48] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 15:36:48] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 15:36:48] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 15:36:48] [INFO] Running Progress export...
+[2026-03-14 15:36:52] [INFO] Update dữ liệu wo
+[2026-03-14 15:36:52] [INFO] connect success
+[2026-03-14 15:36:52] [INFO] Dữ liệu gần nhất: ID=43, SYSTEM=QAD, TIME=error
+[2026-03-14 15:37:01] [INFO] xuất ok
+[2026-03-14 15:37:01] [INFO] import vào db
+[2026-03-14 15:37:01] [INFO] Chuyển đổi trước khi import
+[2026-03-14 15:37:04] [INFO] Update dữ liệu wo
+[2026-03-14 15:37:04] [INFO] connect success
+[2026-03-14 15:37:04] [INFO] Dữ liệu gần nhất: ID=43, SYSTEM=QAD, TIME=error
+[2026-03-14 15:37:26] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 15:37:26] [INFO] connect success
+[2026-03-14 15:37:27] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 15:37:27] [INFO] The table 'wo_mstr' has 1434965 rows.
+[2026-03-14 15:37:27] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 15:37:30] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 15:37:30] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr1.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 15:37:36] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:37:42] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:37:45] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:37:51] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:37:53] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:37:55] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:38:04] [INFO] Update dữ liệu wo
+[2026-03-14 15:38:04] [INFO] connect success
+[2026-03-14 15:38:04] [INFO] Dữ liệu gần nhất: ID=43, SYSTEM=QAD, TIME=error
+[2026-03-14 15:38:04] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 15:38:04] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 15:38:04] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 15:38:05] [INFO] Running Progress export...
+[2026-03-14 15:38:11] [INFO] Update dữ liệu wo
+[2026-03-14 15:38:11] [INFO] connect success
+[2026-03-14 15:38:11] [INFO] Dữ liệu gần nhất: ID=43, SYSTEM=QAD, TIME=error
+[2026-03-14 15:38:11] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 15:38:11] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 15:38:11] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 15:38:11] [INFO] Running Progress export...
+[2026-03-14 15:38:18] [INFO] xuất ok
+[2026-03-14 15:38:18] [INFO] import vào db
+[2026-03-14 15:38:18] [INFO] xuất ok
+[2026-03-14 15:38:18] [INFO] Chuyển đổi trước khi import
+[2026-03-14 15:38:18] [INFO] import vào db
+[2026-03-14 15:38:18] [INFO] Chuyển đổi trước khi import
+[2026-03-14 15:38:18] [INFO] connect success
+[2026-03-14 15:38:18] [INFO] connect success
+[2026-03-14 15:38:18] [INFO] SQL executed successfully
+[2026-03-14 15:38:18] [INFO] SQL executed successfully
+[2026-03-14 15:39:03] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:39:06] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:39:10] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:39:22] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:39:27] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:39:30] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:40:48] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:40:49] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:40:50] [INFO] Update dữ liệu wo
+[2026-03-14 15:40:50] [INFO] connect success
+[2026-03-14 15:40:50] [INFO] Dữ liệu gần nhất: ID=45, SYSTEM=QAD, TIME=error
+[2026-03-14 15:40:50] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 15:40:51] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 15:40:51] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 15:40:51] [INFO] Running Progress export...
+[2026-03-14 15:41:01] [INFO] Update dữ liệu wo
+[2026-03-14 15:41:01] [INFO] connect success
+[2026-03-14 15:41:01] [INFO] Dữ liệu gần nhất: ID=45, SYSTEM=QAD, TIME=error
+[2026-03-14 15:41:04] [INFO] xuất ok
+[2026-03-14 15:41:04] [INFO] import vào db
+[2026-03-14 15:41:04] [INFO] Chuyển đổi trước khi import
+[2026-03-14 15:41:04] [INFO] Update dữ liệu wo
+[2026-03-14 15:41:04] [INFO] connect success
+[2026-03-14 15:41:04] [INFO] Dữ liệu gần nhất: ID=45, SYSTEM=QAD, TIME=error
+[2026-03-14 15:41:27] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 15:41:27] [INFO] connect success
+[2026-03-14 15:41:27] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 15:41:27] [INFO] The table 'wo_mstr' has 1434965 rows.
+[2026-03-14 15:41:27] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 15:41:31] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 15:41:31] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr1.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 15:42:11] [INFO] Update dữ liệu wo
+[2026-03-14 15:42:11] [INFO] connect success
+[2026-03-14 15:42:11] [INFO] Dữ liệu gần nhất: ID=45, SYSTEM=QAD, TIME=error
+[2026-03-14 15:42:15] [INFO] Update dữ liệu wo
+[2026-03-14 15:42:15] [INFO] connect success
+[2026-03-14 15:42:15] [INFO] Dữ liệu gần nhất: ID=45, SYSTEM=QAD, TIME=error
+[2026-03-14 15:42:34] [INFO] Import THÀNH CÔNG!
+[2026-03-14 15:42:34] [INFO] Output từ bcp:
+
+Starting copy...
+50000 rows sent to SQL Server. Total sent: 50000
+50000 rows sent to SQL Server. Total sent: 100000
+50000 rows sent to SQL Server. Total sent: 150000
+50000 rows sent to SQL Server. Total sent: 200000
+50000 rows sent to SQL Server. Total sent: 250000
+50000 rows sent to SQL Server. Total sent: 300000
+50000 rows sent to SQL Server. Total sent: 350000
+50000 rows sent to SQL Server. Total sent: 400000
+50000 rows sent to SQL Server. Total sent: 450000
+50000 rows sent to SQL Server. Total sent: 500000
+50000 rows sent to SQL Server. Total sent: 550000
+50000 rows sent to SQL Server. Total sent: 600000
+50000 rows sent to SQL Server. Total sent: 650000
+50000 rows sent to SQL Server. Total sent: 700000
+50000 rows sent to SQL Server. Total sent: 750000
+50000 rows sent to SQL Server. Total sent: 800000
+50000 rows sent to SQL Server. Total sent: 850000
+50000 rows sent to SQL Server. Total sent: 900000
+50000 rows sent to SQL Server. Total sent: 950000
+50000 rows sent to SQL Server. Total sent: 1000000
+50000 rows sent to SQL Server. Total sent: 1050000
+50000 rows sent to SQL Server. Total sent: 1100000
+50000 rows sent to SQL Server. Total sent: 1150000
+50000 rows sent to SQL Server. Total sent: 1200000
+50000 rows sent to SQL Server. Total sent: 1250000
+50000 rows sent to SQL Server. Total sent: 1300000
+50000 rows sent to SQL Server. Total sent: 1350000
+50000 rows sent to SQL Server. Total sent: 1400000
+
+1434965 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 62562  Average : (22936.69 rows per sec.)
+
+[2026-03-14 15:42:34] [INFO] Tệp Z:\exp\wo_mstr.csv đã được xóa.
+[2026-03-14 15:42:34] [INFO] Tệp Z:\exp\wo_mstr1.csv đã được xóa.
+[2026-03-14 15:42:34] [INFO] connect success
+[2026-03-14 15:42:34] [INFO] SQL executed successfully
+[2026-03-14 15:42:40] [INFO] Update dữ liệu wo
+[2026-03-14 15:42:40] [INFO] connect success
+[2026-03-14 15:42:40] [INFO] Dữ liệu gần nhất: ID=46, SYSTEM=QAD, TIME=15:42:34 14-03-2026
+[2026-03-14 15:42:42] [INFO] Update dữ liệu wo
+[2026-03-14 15:42:42] [INFO] connect success
+[2026-03-14 15:42:42] [INFO] Dữ liệu gần nhất: ID=46, SYSTEM=QAD, TIME=15:42:34 14-03-2026
+[2026-03-14 15:42:44] [INFO] Update dữ liệu wo
+[2026-03-14 15:42:44] [INFO] connect success
+[2026-03-14 15:42:44] [INFO] Dữ liệu gần nhất: ID=46, SYSTEM=QAD, TIME=15:42:34 14-03-2026
+[2026-03-14 15:43:02] [INFO] Update dữ liệu wo
+[2026-03-14 15:43:02] [INFO] connect success
+[2026-03-14 15:43:02] [INFO] Dữ liệu gần nhất: ID=47, SYSTEM=QAD, TIME=error
+[2026-03-14 15:43:02] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 15:43:02] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 15:43:02] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 15:43:03] [INFO] Running Progress export...
+[2026-03-14 15:43:12] [INFO] Update dữ liệu wo
+[2026-03-14 15:43:12] [INFO] connect success
+[2026-03-14 15:43:12] [INFO] Dữ liệu gần nhất: ID=47, SYSTEM=QAD, TIME=error
+[2026-03-14 15:43:13] [INFO] Update dữ liệu wo
+[2026-03-14 15:43:13] [INFO] connect success
+[2026-03-14 15:43:13] [INFO] Dữ liệu gần nhất: ID=47, SYSTEM=QAD, TIME=error
+[2026-03-14 15:43:14] [INFO] Update dữ liệu wo
+[2026-03-14 15:43:14] [INFO] connect success
+[2026-03-14 15:43:14] [INFO] Dữ liệu gần nhất: ID=47, SYSTEM=QAD, TIME=error
+[2026-03-14 15:43:14] [INFO] Update dữ liệu wo
+[2026-03-14 15:43:14] [INFO] connect success
+[2026-03-14 15:43:15] [INFO] Dữ liệu gần nhất: ID=47, SYSTEM=QAD, TIME=error
+[2026-03-14 15:43:15] [INFO] xuất ok
+[2026-03-14 15:43:15] [INFO] import vào db
+[2026-03-14 15:43:15] [INFO] Chuyển đổi trước khi import
+[2026-03-14 15:43:38] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 15:43:38] [INFO] connect success
+[2026-03-14 15:43:38] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 15:43:38] [INFO] The table 'wo_mstr' has 1434965 rows.
+[2026-03-14 15:43:38] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 15:43:42] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 15:43:42] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr1.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 15:44:05] [INFO] Update dữ liệu wo
+[2026-03-14 15:44:05] [INFO] connect success
+[2026-03-14 15:44:05] [INFO] Dữ liệu gần nhất: ID=47, SYSTEM=QAD, TIME=error
+[2026-03-14 15:44:45] [INFO] Import THÀNH CÔNG!
+[2026-03-14 15:44:45] [INFO] Output từ bcp:
+
+Starting copy...
+50000 rows sent to SQL Server. Total sent: 50000
+50000 rows sent to SQL Server. Total sent: 100000
+50000 rows sent to SQL Server. Total sent: 150000
+50000 rows sent to SQL Server. Total sent: 200000
+50000 rows sent to SQL Server. Total sent: 250000
+50000 rows sent to SQL Server. Total sent: 300000
+50000 rows sent to SQL Server. Total sent: 350000
+50000 rows sent to SQL Server. Total sent: 400000
+50000 rows sent to SQL Server. Total sent: 450000
+50000 rows sent to SQL Server. Total sent: 500000
+50000 rows sent to SQL Server. Total sent: 550000
+50000 rows sent to SQL Server. Total sent: 600000
+50000 rows sent to SQL Server. Total sent: 650000
+50000 rows sent to SQL Server. Total sent: 700000
+50000 rows sent to SQL Server. Total sent: 750000
+50000 rows sent to SQL Server. Total sent: 800000
+50000 rows sent to SQL Server. Total sent: 850000
+50000 rows sent to SQL Server. Total sent: 900000
+50000 rows sent to SQL Server. Total sent: 950000
+50000 rows sent to SQL Server. Total sent: 1000000
+50000 rows sent to SQL Server. Total sent: 1050000
+50000 rows sent to SQL Server. Total sent: 1100000
+50000 rows sent to SQL Server. Total sent: 1150000
+50000 rows sent to SQL Server. Total sent: 1200000
+50000 rows sent to SQL Server. Total sent: 1250000
+50000 rows sent to SQL Server. Total sent: 1300000
+50000 rows sent to SQL Server. Total sent: 1350000
+50000 rows sent to SQL Server. Total sent: 1400000
+
+1434965 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 63125  Average : (22732.12 rows per sec.)
+
+[2026-03-14 15:44:45] [INFO] Tệp Z:\exp\wo_mstr.csv đã được xóa.
+[2026-03-14 15:44:45] [INFO] Tệp Z:\exp\wo_mstr1.csv đã được xóa.
+[2026-03-14 15:44:45] [INFO] connect success
+[2026-03-14 15:44:45] [INFO] SQL executed successfully
+[2026-03-14 15:45:35] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 15:47:33] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 15:47:33] [INFO] Exit Flask API trên cổng 5555

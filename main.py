@@ -7,8 +7,11 @@ from Log import Logger
 app = Flask(__name__)
 LAST_REQUEST_TIME = None
 LAST_REQUEST_TIME2 = None
+LAST_REQUEST_TIME3 = None
 LIMIT = timedelta(minutes=30)
 LIMIT2 = timedelta(minutes=30)
+LIMIT3 = timedelta(minutes=30)
+RUNING = False
 
 log = Logger()
 WorkThread = WorkThread()
@@ -59,23 +62,41 @@ def item():
     # update dữ liệu ở đây
     status = WorkThread.Export_inventory()
     
+    # nếu lỗi update error vào
     if not status:
         return jsonify({
             "error": "Export erorr",
         }), 429
     
+    
     # TODO: refresh data + update SQL
+    # nếu ok thì trả về done và update vào sql
     return jsonify({
         "status": "done",
         "time": now.strftime("%Y-%m-%d %H:%M:%S")
     })
     
+    
+    
+@app.route("/test", methods=["POST"])
+def test():
+    now = datetime.now()
+    # WorkThread.Insert_SQL(f"insert into ACWO.dbo.DataStatus (SYSTEM, TIME) values ('QAD', {now.strftime("%Y-%m-%d %H:%M:%S")})") 
+    status = WorkThread.Insert_SQL(f"insert into ACWO.dbo.DataStatus (SYSTEM, TIME) values ('QAD','{now.strftime("%H:%M:%S %d-%m-%Y")}')")
+    print(status)
+    return jsonify({"message": f"Check status completed {status}"})
+    
+
+
 @app.route("/api/item", methods=["POST"])
 def ExportItem():
     log.info("Update dữ liệu item")
     global LAST_REQUEST_TIME2
     now = datetime.now()
-
+   
+    
+    
+    
     if LAST_REQUEST_TIME2 and now - LAST_REQUEST_TIME2 < LIMIT2:
         wait = LIMIT2 - (now - LAST_REQUEST_TIME2)
         return jsonify({
@@ -86,6 +107,7 @@ def ExportItem():
     LAST_REQUEST_TIME2 = now
 
     # update dữ liệu ở đây
+    
     status = WorkThread.Export_item()
         
     if not status:
@@ -99,9 +121,55 @@ def ExportItem():
         "time": now.strftime("%Y-%m-%d %H:%M:%S")
     })
 
+
+
+
+@app.route("/api/wo", methods=["POST"])
+def ExportWo():
+    log.info("Update dữ liệu wo")
+    global LAST_REQUEST_TIME3, RUNING
+    now = datetime.now()
+    CheckStatus = WorkThread.Check_Status("QAD")
+     
+    if CheckStatus != "error" and LAST_REQUEST_TIME3 and now - LAST_REQUEST_TIME3 < LIMIT3:
+        wait = LIMIT3 - (now - LAST_REQUEST_TIME3)
+        return jsonify({
+            "error": "Too many requests",
+            "retry_after_seconds": int(wait.total_seconds())
+            }), 429
+
+    LAST_REQUEST_TIME3 = now
+
+    if RUNING:
+        return jsonify({
+            "error": "System is run"
+            }), 429
+    # update dữ liệu ở đây
+    RUNING = True
+    status = WorkThread.Export_WO()
+        
+    if not status:
+        WorkThread.Insert_SQL(f"insert into ACWO.dbo.DataStatus (SYSTEM, TIME) values ('QAD','error')")
+        RUNING = False
+        return jsonify({
+            "error": "Export erorr",
+        }), 429
+        
+    # TODO: refresh data + update SQL
+    now = datetime.now()
+    
+    RUNING = False
+    WorkThread.Insert_SQL(f"insert into ACWO.dbo.DataStatus (SYSTEM, TIME) values ('QAD','{now.strftime("%H:%M %d-%m-%Y")}')")
+    return jsonify({
+        "status": "done",
+        "time": now.strftime("%Y-%m-%d %H:%M:%S")
+    })
+
+
+
 # Start server
 if __name__ == "__main__":
-    log.info("Khởi động Flask API trên cổng 5000")
+    log.info("Khởi động Flask API trên cổng 5555")
     app.run(
         host="0.0.0.0",  # cho phép máy khác truy cập
         port=5555,

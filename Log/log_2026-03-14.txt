@@ -1759,3 +1759,137 @@ Clock Time (ms.) Total     : 63125  Average : (22732.12 rows per sec.)
 [2026-03-14 15:45:35] [INFO] Khởi động Flask API trên cổng 5555
 [2026-03-14 15:47:33] [INFO] Exit Flask API trên cổng 5555
 [2026-03-14 15:47:33] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 16:14:24] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 16:14:25] [INFO] Khởi động Flask API trên cổng 5555
+[2026-03-14 16:14:36] [INFO] Update dữ liệu wo
+[2026-03-14 16:14:36] [INFO] connect success
+[2026-03-14 16:14:36] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:14:36] [INFO] Xuất dữ liệu WO ra file CSV
+[2026-03-14 16:14:36] [INFO] ✓ Connected to tvc-sv15
+[2026-03-14 16:14:36] [INFO] Creating script for wo_mstr.csv...
+[2026-03-14 16:14:36] [INFO] Running Progress export...
+[2026-03-14 16:14:47] [INFO] xuất ok
+[2026-03-14 16:14:47] [INFO] import vào db
+[2026-03-14 16:14:47] [INFO] Chuyển đổi trước khi import
+[2026-03-14 16:14:49] [INFO] Update dữ liệu wo
+[2026-03-14 16:14:49] [INFO] connect success
+[2026-03-14 16:14:49] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:14:51] [INFO] Update dữ liệu wo
+[2026-03-14 16:14:51] [INFO] connect success
+[2026-03-14 16:14:51] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:14:52] [INFO] Update dữ liệu wo
+[2026-03-14 16:14:52] [INFO] connect success
+[2026-03-14 16:14:52] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:14:53] [INFO] Update dữ liệu wo
+[2026-03-14 16:14:53] [INFO] connect success
+[2026-03-14 16:14:53] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:04] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:04] [INFO] connect success
+[2026-03-14 16:15:04] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:05] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:05] [INFO] connect success
+[2026-03-14 16:15:05] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:07] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:07] [INFO] connect success
+[2026-03-14 16:15:07] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:08] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:08] [INFO] connect success
+[2026-03-14 16:15:08] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:10] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:10] [INFO] connect success
+[2026-03-14 16:15:10] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:11] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:11] [INFO] connect success
+[2026-03-14 16:15:11] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:12] [INFO] Kiểm tra và xóa dữ liệu
+[2026-03-14 16:15:12] [INFO] connect success
+[2026-03-14 16:15:13] [INFO] Có dữ liệu trong bảng.
+[2026-03-14 16:15:13] [INFO] The table 'wo_mstr' has 1434965 rows.
+[2026-03-14 16:15:13] [INFO] DELETE FROM [wo_mstr]
+[2026-03-14 16:15:16] [INFO] Đang chạy lệnh bcp:
+[2026-03-14 16:15:16] [INFO] bcp Data_qad.dbo.wo_mstr in Z:\exp\wo_mstr1.csv -S 10.239.1.54 -U sa -P 123456 -c -t ; -r 0x0a -F 2 -b 50000 -a 65535 -e Log/bcp_error_rows.log -m 100
+[2026-03-14 16:15:22] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:22] [INFO] connect success
+[2026-03-14 16:15:22] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:23] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:23] [INFO] connect success
+[2026-03-14 16:15:24] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:24] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:24] [INFO] connect success
+[2026-03-14 16:15:24] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:25] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:25] [INFO] connect success
+[2026-03-14 16:15:25] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:51] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:51] [INFO] connect success
+[2026-03-14 16:15:51] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:52] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:52] [INFO] connect success
+[2026-03-14 16:15:52] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:53] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:53] [INFO] connect success
+[2026-03-14 16:15:53] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:54] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:54] [INFO] connect success
+[2026-03-14 16:15:54] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:54] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:54] [INFO] connect success
+[2026-03-14 16:15:54] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:55] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:55] [INFO] connect success
+[2026-03-14 16:15:55] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:15:56] [INFO] Update dữ liệu wo
+[2026-03-14 16:15:56] [INFO] connect success
+[2026-03-14 16:15:56] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:16:04] [INFO] Update dữ liệu wo
+[2026-03-14 16:16:04] [INFO] connect success
+[2026-03-14 16:16:04] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:16:04] [INFO] Update dữ liệu wo
+[2026-03-14 16:16:04] [INFO] connect success
+[2026-03-14 16:16:04] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:16:05] [INFO] Update dữ liệu wo
+[2026-03-14 16:16:05] [INFO] connect success
+[2026-03-14 16:16:05] [INFO] Dữ liệu gần nhất: ID=49, SYSTEM=QAD, TIME=15:54 14-03-2026
+[2026-03-14 16:16:20] [INFO] Import THÀNH CÔNG!
+[2026-03-14 16:16:20] [INFO] Output từ bcp:
+
+Starting copy...
+50000 rows sent to SQL Server. Total sent: 50000
+50000 rows sent to SQL Server. Total sent: 100000
+50000 rows sent to SQL Server. Total sent: 150000
+50000 rows sent to SQL Server. Total sent: 200000
+50000 rows sent to SQL Server. Total sent: 250000
+50000 rows sent to SQL Server. Total sent: 300000
+50000 rows sent to SQL Server. Total sent: 350000
+50000 rows sent to SQL Server. Total sent: 400000
+50000 rows sent to SQL Server. Total sent: 450000
+50000 rows sent to SQL Server. Total sent: 500000
+50000 rows sent to SQL Server. Total sent: 550000
+50000 rows sent to SQL Server. Total sent: 600000
+50000 rows sent to SQL Server. Total sent: 650000
+50000 rows sent to SQL Server. Total sent: 700000
+50000 rows sent to SQL Server. Total sent: 750000
+50000 rows sent to SQL Server. Total sent: 800000
+50000 rows sent to SQL Server. Total sent: 850000
+50000 rows sent to SQL Server. Total sent: 900000
+50000 rows sent to SQL Server. Total sent: 950000
+50000 rows sent to SQL Server. Total sent: 1000000
+50000 rows sent to SQL Server. Total sent: 1050000
+50000 rows sent to SQL Server. Total sent: 1100000
+50000 rows sent to SQL Server. Total sent: 1150000
+50000 rows sent to SQL Server. Total sent: 1200000
+50000 rows sent to SQL Server. Total sent: 1250000
+50000 rows sent to SQL Server. Total sent: 1300000
+50000 rows sent to SQL Server. Total sent: 1350000
+50000 rows sent to SQL Server. Total sent: 1400000
+
+1434965 rows copied.
+Network packet size (bytes): 32576
+Clock Time (ms.) Total     : 63328  Average : (22659.25 rows per sec.)
+
+[2026-03-14 16:16:20] [INFO] Tệp Z:\exp\wo_mstr.csv đã được xóa.
+[2026-03-14 16:16:20] [INFO] Tệp Z:\exp\wo_mstr1.csv đã được xóa.
+[2026-03-14 16:16:20] [INFO] connect success
+[2026-03-14 16:16:20] [INFO] SQL executed successfully
+[2026-03-14 16:19:45] [INFO] Exit Flask API trên cổng 5555
+[2026-03-14 16:19:45] [INFO] Exit Flask API trên cổng 5555
